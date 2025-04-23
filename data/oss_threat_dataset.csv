@@ -1,6 +1,0 @@
-id,title,description,label,source,predicted_label
-gh001,Malicious dependency mimics popular package,The package `requests-plus` mimics the well-known `requests` library and steals environment variables upon installation.,AV-200,https://github.com/example/repo/issues/101,AV-200
-gh002,Dependency confusion in internal repo,"A public package with the same name as an internal library was uploaded to npm, leading to execution in the CI pipeline.",AV-509,https://github.com/example/repo/issues/102,AV-509
-gh003,Unicode characters in pull request hide payload,"Invisible Unicode control characters were used in a Python file, changing the visual meaning of the logic in the PR.",AV-300,https://github.com/example/repo/pull/103,AV-509
-gh004,Code execution during install,The package `installer-script` runs malicious shell commands from its `setup.py` file at install time.,AV-400,https://github.com/example/repo/issues/104,AV-400
-gh005,Malicious build script commits credentials,A contributor added a build step that silently commits AWS credentials from the CI environment to their repo.,AV-410,https://github.com/example/repo/issues/105,AV-200
