@@ -1,28 +1,32 @@
-# OSS Threat Data
+# 🧾 OSS Threat Dataset Evaluation Report
 
-A curated dataset of real-world open-source software (OSS) supply chain threat incidents, labeled using the AV-xxx taxonomy.
+**Total samples:** 20
 
-## Dataset Overview
+## 📊 Label Distribution
 
-The dataset includes incidents with the following fields:
+AV-200    4  
+AV-509    4  
+AV-300    4  
+AV-400    4  
+AV-410    4  
 
-- `id`: Unique identifier for the incident.
-- `title`: Brief title describing the incident.
-- `description`: Detailed explanation of the incident.
-- `label`: AV-xxx taxonomy code categorizing the threat.
-- `source`: URL to the original source of the incident report.
+## 🎯 Prediction Evaluation
 
-## Sample Entry
+**Accuracy:** 85.00%
 
-| id    | title                                       | description                                      | label  | source                                      |
-|-------|---------------------------------------------|--------------------------------------------------|--------|---------------------------------------------|
-| gh001 | Malicious dependency mimics popular package | The package `requests-plus` mimics the well-known `requests` library and steals environment variables upon installation. | AV-200 | https://github.com/example/repo/issues/101 |
+### 📋 Classification Report
 
-## Usage
+              precision    recall  f1-score   support  
+AV-200       0.80         1.00      0.89         4  
+AV-300       0.75         0.75      0.75         4  
+AV-400       1.00         0.75      0.86         4  
+AV-410       1.00         0.75      0.86         4  
+AV-509       0.80         1.00      0.89         4  
 
-To load the dataset in Python:
+**Accuracy (Overall):** 85.00%  
+**Macro avg:** 87% Precision / 85% Recall  
+**Weighted avg:** 87% Precision / 85% Recall
 
-```python
-import pandas as pd
+### 📉 Confusion Matrix
 
-df = pd.read_csv('data/oss_threat_dataset.csv')
+     AV-200  AV-300  AV-400  AV-410  AV-509  
