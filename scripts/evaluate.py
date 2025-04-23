@@ -3,7 +3,7 @@
 import pandas as pd
 
 def main():
-    df = pd.read_csv("data/oss_threat_dataset_v3.csv")
+    df = pd.read_csv("data/oss_threat_dataset.csv")
 
     print("\n📊 Dataset Summary:")
     print(f"Total samples: {len(df)}")
