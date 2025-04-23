@@ -1,5 +1,3 @@
-# scripts/evaluate_with_predictions.py
-
 import pandas as pd
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
@@ -7,10 +5,10 @@ def main():
     df = pd.read_csv("data/oss_threat_dataset.csv")
 
     if 'predicted_label' not in df.columns:
-        print("⚠️ No 'predicted_label' column found. Please add model outputs to the CSV.")
+        print("⚠️ No 'predicted_label' column found. Skipping accuracy evaluation.")
         return
 
-    print("\n✅ Dataset loaded!")
+    print("\n✅ Dataset loaded with predictions!")
     print(f"🔢 Total samples: {len(df)}")
     print("\n🧾 Ground truth label distribution:")
     print(df['label'].value_counts())
