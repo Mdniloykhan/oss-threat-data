@@ -4,6 +4,8 @@
 **Model achieves 85% overall accuracy** on balanced multi-class vulnerability detection, with perfect recall for critical threats AV-200/AV-509. Key improvement areas identified for AV-300/Av-410 classes.
 
 ![Confusion Matrix Heatmap](https://via.placeholder.com/400x300.png/CCCCCC/808080?text=Confusion+Matrix+Visual) 
+*Confusion pattern visualization (placeholder)*
+
 ---
 
 ## 📊 Performance Metrics
@@ -80,7 +82,6 @@ A[Baseline Model] -->|+15% Accuracy| B[Current Version]
 B --> C{Next Targets}
 C -->|Q2 2024| D[90% Overall Accuracy]
 C -->|Q3 2024| E[95% AV-300 Recall]
-
 
 
 Key Features:
