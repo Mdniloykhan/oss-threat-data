@@ -12,3 +12,12 @@ A machine learning pipeline for detecting vulnerabilities in Open Source Softwar
 git clone https://github.com/mdniloykhan/oss-threat-data.git
 cd oss-threat-data
 pip install -r requirements.txt
+
+## 📦 Citation
+
+If you use this dataset or toolkit in your research, please cite:
+
+**OSS Threat Dataset v1.0**  
+DOI: [10.5281/zenodo.15270679](https://doi.org/10.5281/zenodo.15270679)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15270679.svg)](https://doi.org/10.5281/zenodo.15270679)
