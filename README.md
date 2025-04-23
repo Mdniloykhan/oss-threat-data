@@ -1,32 +1,15 @@
-# 🧾 OSS Threat Dataset Evaluation Report
+# OSS Threat Detection Toolkit 🔒
 
-**Total samples:** 20
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Last Evaluation](https://img.shields.io/badge/evaluation-2024-03-15-brightgreen)
+![Accuracy](https://img.shields.io/badge/accuracy-85%25-yellowgreen)
 
-## 📊 Label Distribution
+A machine learning pipeline for detecting vulnerabilities in Open Source Software packages, featuring multi-class threat evaluation and automated reporting.
 
-AV-200    4  
-AV-509    4  
-AV-300    4  
-AV-400    4  
-AV-410    4  
+## 🚀 Quick Start
 
-## 🎯 Prediction Evaluation
-
-**Accuracy:** 85.00%
-
-### 📋 Classification Report
-
-              precision    recall  f1-score   support  
-AV-200       0.80         1.00      0.89         4  
-AV-300       0.75         0.75      0.75         4  
-AV-400       1.00         0.75      0.86         4  
-AV-410       1.00         0.75      0.86         4  
-AV-509       0.80         1.00      0.89         4  
-
-**Accuracy (Overall):** 85.00%  
-**Macro avg:** 87% Precision / 85% Recall  
-**Weighted avg:** 87% Precision / 85% Recall
-
-### 📉 Confusion Matrix
-
-     AV-200  AV-300  AV-400  AV-410  AV-509  
+### Prerequisites
+```bash
+git clone https://github.com/mdniloykhan/oss-threat-data.git
+cd oss-threat-data
+pip install -r requirements.txt
