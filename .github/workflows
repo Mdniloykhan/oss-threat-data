@@ -23,9 +23,12 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 📦 Install dependencies
-        run: pip install pandas
+      - name: 📦 Install Python dependencies
+        run: |
+          pip install pandas scikit-learn
 
-      - name: 🧪 Run evaluation script
+      - name: 🧪 Run basic dataset evaluation
         run: python scripts/evaluate.py
 
+      - name: 🔍 Run prediction evaluation (if column exists)
+        run: python scripts/evaluate_with_predictions.py
