@@ -73,7 +73,7 @@
 
 
 
-Key Features:
+### Key Features:
 1. Action-oriented error analysis with prioritization
 2. Mermaid.js integration for roadmap visualization
 3. Placeholder for confusion matrix graphic
