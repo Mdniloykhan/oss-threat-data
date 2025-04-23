@@ -10,11 +10,11 @@ This project uses machine learning to detect and classify **supply chain threats
 
 ## 📁 What's in this project?
 
-- `data/oss_threat_dataset.csv` → your labeled threat data
+- `data/oss_threat_dataset.csv` → labeled threat data
 - `scripts/evaluate.py` → shows label stats
 - `scripts/evaluate_with_predictions.py` → checks prediction accuracy
 - `.github/workflows/evaluate.yml` → runs scripts automatically on every change
-- `evaluation_report.md` → saved report from your model
+- `evaluation_report.md` → saved report from model
 - `README.md` → this file
 
 ---
