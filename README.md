@@ -25,4 +25,4 @@ To load the dataset in Python:
 ```python
 import pandas as pd
 
-df = pd.read_csv('data/oss_threat_dataset_updated.csv')
+df = pd.read_csv('data/oss_threat_dataset.csv')
