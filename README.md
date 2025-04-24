@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Accuracy](https://img.shields.io/badge/accuracy-92%25-yellowgreen)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15270679.svg)](https://doi.org/10.5281/zenodo.15270679)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15270679.svg)](https://doi.org/10.5281/zenodo.15274029)
 
 This project uses machine learning to detect and classify **supply chain threats** in open source software (OSS). It includes a dataset, Python scripts, and automated evaluation.
 
