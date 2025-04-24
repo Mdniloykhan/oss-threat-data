@@ -19,6 +19,14 @@ This project uses machine learning to detect and classify **supply chain threats
 
 ---
 
+## 📊 AV Label Distribution
+
+![Pie Chart](./data/oss_threat_label_distribution_pie.png)  
+
+![Bar Chart](./data/oss_threat_label_distribution_bar.png)
+
+
+
 ## 🚀 How to Use
 
 ### Step 1: Clone this project
