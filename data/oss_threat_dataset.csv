@@ -99,6 +99,3 @@ gh097,Invisible Unicode payload in `README.md` triggers malware,"A published pac
 gh098,Shell payload in `setup.py` of Python package `pyplotter`,"The `setup.py` file downloaded and executed remote shell code during installation from PyPI.",AV-400,https://snyk.io/blog/python-malware-pypi-setup-py,AV-400
 gh099,GitHub Actions leak via misconfigured matrix job,"A forked PR manipulated a matrix job to access environment variables not intended for forks.",AV-410,https://securitylab.github.com/research/github-actions-preventing-pipeline-poisoning/,AV-410
 gh100,Dependency confusion attack in open source blockchain project,"Red team demonstrated pulling of public packages instead of internal ones by mimicking build artifact names.",AV-509,https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610,AV-509
-gh101,Malicious npm package steals tokens,A published npm package executes a postinstall script that exfiltrates user tokens to a remote server,AV-400,npm,AV-400
-gh102,Dependency confusion in internal package,A public package with same name as internal dependency is installed, exposing secrets,AV-509,npm,AV-509300
-gh200,CI workflow executes hidden script from encoded variable,Encoded payload stored in variable is decoded and executed in pipeline,AV-410,GitHub Actions,AV-410
