@@ -99,23 +99,23 @@ gh097,Invisible Unicode payload in `README.md` triggers malware,"A published pac
 gh098,Shell payload in `setup.py` of Python package `pyplotter`,"The `setup.py` file downloaded and executed remote shell code during installation from PyPI.",AV-400,https://snyk.io/blog/python-malware-pypi-setup-py,AV-400
 gh099,GitHub Actions leak via misconfigured matrix job,"A forked PR manipulated a matrix job to access environment variables not intended for forks.",AV-410,https://securitylab.github.com/research/github-actions-preventing-pipeline-poisoning/,AV-410
 gh100,Dependency confusion attack in open source blockchain project,"Red team demonstrated pulling of public packages instead of internal ones by mimicking build artifact names.",AV-509,https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610,AV-509
-101,Malicious npm package steals tokens,A published npm package executes a postinstall script that exfiltrates user tokens to a remote server,AV-400,npm,AV-400
-102,Dependency confusion in internal package,A public package with same name as internal dependency is installed, exposing secrets,AV-509,npm,AV-509
-103,Unicode bidirectional override in source code,Hidden Unicode characters alter code logic while appearing safe,AV-300,GitHub,AV-300
-104,Typosquatted PyPI package mimics requests,A fake package named requsets captures credentials during install,AV-200,PyPI,AV-200
-105,Compromised build pipeline injects backdoor,CI pipeline modified to include malicious binary during build stage,AV-410,GitHub Actions,AV-410
-106,Malicious Docker image with hidden miner,A Docker image runs a background crypto miner upon execution,AV-400,Docker Hub,AV-400
-107,Package installs hidden reverse shell,Install script launches a reverse shell connection to attacker server,AV-400,npm,AV-400
-108,Fake library mimicking logging module,Library name differs slightly and logs sensitive user data externally,AV-200,PyPI,AV-200
-109,Dependency confusion attack via private repo,Attacker uploads higher version package overriding private dependency,AV-509,npm,AV-509
-110,Trojan source attack in pull request,Code appears safe but contains hidden logic using Unicode tricks,AV-300,GitHub,AV-300
-111,CI script downloads unverified binary,Build process pulls binary from external source without integrity checks,AV-410,GitHub Actions,AV-410
-112,Malicious pip package exfiltrates SSH keys,Package reads SSH keys and sends them to remote endpoint,AV-400,PyPI,AV-400
-113,Typosquatting attack targeting flask package,Fake package flsak tricks developers into installing malware,AV-200,PyPI,AV-200
-114,Build script modified via compromised contributor,Attacker modifies build script to insert malicious payload,AV-410,GitHub,AV-410
-115,Dependency confusion via pip index priority,Public package overrides private dependency resolution order,AV-509,PyPI,AV-509
-116,Unicode obfuscation hides malicious function,Function appears benign but executes hidden logic due to encoding,AV-300,GitHub,AV-300
-117,Malicious npm library sends environment variables,Package collects and transmits environment variables silently,AV-400,npm,AV-400
-118,Fake crypto library steals wallet keys,Library mimics crypto tools and extracts wallet secrets,AV-200,GitHub,AV-200
-119,Poisoned CI workflow injects malicious step,Workflow YAML includes hidden malicious execution step,AV-410,GitHub Actions,AV-410
-120,Dependency confusion through version spoofing,Higher version public package overrides secure internal dependency,AV-509,npm,AV-509
+gh101,Malicious npm package steals tokens,A published npm package executes a postinstall script that exfiltrates user tokens to a remote server,AV-400,npm,AV-400
+gh102,Dependency confusion in internal package,A public package with same name as internal dependency is installed, exposing secrets,AV-509,npm,AV-509
+gh103,Unicode bidirectional override in source code,Hidden Unicode characters alter code logic while appearing safe,AV-300,GitHub,AV-300
+gh104,Typosquatted PyPI package mimics requests,A fake package named requsets captures credentials during install,AV-200,PyPI,AV-200
+gh105,Compromised build pipeline injects backdoor,CI pipeline modified to include malicious binary during build stage,AV-410,GitHub Actions,AV-410
+gh106,Malicious Docker image with hidden miner,A Docker image runs a background crypto miner upon execution,AV-400,Docker Hub,AV-400
+gh107,Package installs hidden reverse shell,Install script launches a reverse shell connection to attacker server,AV-400,npm,AV-400
+gh108,Fake library mimicking logging module,Library name differs slightly and logs sensitive user data externally,AV-200,PyPI,AV-200
+gh109,Dependency confusion attack via private repo,Attacker uploads higher version package overriding private dependency,AV-509,npm,AV-509
+gh110,Trojan source attack in pull request,Code appears safe but contains hidden logic using Unicode tricks,AV-300,GitHub,AV-300
+gh111,CI script downloads unverified binary,Build process pulls binary from external source without integrity checks,AV-410,GitHub Actions,AV-410
+gh112,Malicious pip package exfiltrates SSH keys,Package reads SSH keys and sends them to remote endpoint,AV-400,PyPI,AV-400
+gh113,Typosquatting attack targeting flask package,Fake package flsak tricks developers into installing malware,AV-200,PyPI,AV-200
+gh114,Build script modified via compromised contributor,Attacker modifies build script to insert malicious payload,AV-410,GitHub,AV-410
+gh115,Dependency confusion via pip index priority,Public package overrides private dependency resolution order,AV-509,PyPI,AV-509
+gh116,Unicode obfuscation hides malicious function,Function appears benign but executes hidden logic due to encoding,AV-300,GitHub,AV-300
+gh117,Malicious npm library sends environment variables,Package collects and transmits environment variables silently,AV-400,npm,AV-400
+gh118,Fake crypto library steals wallet keys,Library mimics crypto tools and extracts wallet secrets,AV-200,GitHub,AV-200
+gh119,Poisoned CI workflow injects malicious step,Workflow YAML includes hidden malicious execution step,AV-410,GitHub Actions,AV-410
+gh120,Dependency confusion through version spoofing,Higher version public package overrides secure internal dependency,AV-509,npm,AV-509
