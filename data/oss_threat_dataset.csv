@@ -139,3 +139,23 @@ gh137,Fake authentication library captures passwords,Library mimics auth module 
 gh138,Dependency confusion via package name collision,Public package with identical name replaces private dependency,AV-509,PyPI,AV-509
 gh139,Unicode obfuscation hides malicious loop,Loop appears harmless but executes hidden malicious logic,AV-300,GitHub,AV-300
 gh140,CI workflow executes hidden remote script,Workflow includes hidden remote script execution step,AV-410,GitHub Actions,AV-410
+gh161,Postinstall script fetches remote payload,Package downloads and executes remote script during install,AV-400,npm,AV-400
+gh162,Typosquatted package mimics pandas,Fake package pandaz imitates pandas and steals local data,AV-200,PyPI,AV-200
+gh163,Dependency confusion via internal namespace leak,Internal package name leaked allowing public override,AV-509,npm,AV-509
+gh164,Unicode override hides conditional bypass,Unicode characters alter logic to bypass security checks,AV-300,GitHub,AV-300
+gh165,CI pipeline step exfiltrates environment secrets,Hidden step sends environment variables to attacker endpoint,AV-410,GitHub Actions,AV-410
+gh166,Malicious library collects browser tokens,Library scans system and extracts browser session tokens,AV-400,npm,AV-400
+gh167,Fake crypto utility package steals private keys,Package mimics crypto tool and exfiltrates wallet keys,AV-200,GitHub,AV-200
+gh168,Dependency confusion via version precedence conflict,Public package supersedes private due to higher version,AV-509,PyPI,AV-509
+gh169,Trojan source attack hides loop injection,Unicode characters conceal malicious loop execution,AV-300,GitHub,AV-300
+gh170,Compromised workflow injects malicious artifact,CI workflow includes step to download and execute malware,AV-410,GitHub Actions,AV-410
+gh171,Malicious pip package opens reverse shell,Package initiates reverse shell after installation,AV-400,PyPI,AV-400
+gh172,Typosquatting attack on express package,Fake package experss executes malicious code during install,AV-200,npm,AV-200
+gh173,Dependency confusion via registry misconfiguration,Incorrect registry settings allow public package override,AV-509,npm,AV-509
+gh174,Unicode obfuscation hides credential theft,Hidden characters mask code that steals credentials,AV-300,GitHub,AV-300
+gh175,CI/CD pipeline injects unauthorized build step,Pipeline altered to include hidden malicious step,AV-410,GitHub Actions,AV-410
+gh176,Malicious Docker image leaks API keys,Container image extracts and sends API keys during runtime,AV-400,Docker Hub,AV-400
+gh177,Fake machine learning library logs data,Library mimics ML tool but logs training data externally,AV-200,PyPI,AV-200
+gh178,Dependency confusion via shadow package upload,Attacker uploads shadow package replacing internal dependency,AV-509,npm,AV-509
+gh179,Trojan source hides logic inversion,Unicode trick reverses logical conditions in code,AV-300,GitHub,AV-300
+gh180,CI workflow executes encoded malicious script,Workflow runs base64-encoded malicious script during build,AV-410,GitHub Actions,AV-410
