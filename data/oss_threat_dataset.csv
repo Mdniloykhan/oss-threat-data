@@ -159,3 +159,23 @@ gh177,Fake machine learning library logs data,Library mimics ML tool but logs tr
 gh178,Dependency confusion via shadow package upload,Attacker uploads shadow package replacing internal dependency,AV-509,npm,AV-509
 gh179,Trojan source hides logic inversion,Unicode trick reverses logical conditions in code,AV-300,GitHub,AV-300
 gh180,CI workflow executes encoded malicious script,Workflow runs base64-encoded malicious script during build,AV-410,GitHub Actions,AV-410
+gh181,Package with benign install but malicious runtime behavior,Library behaves normally during install but executes hidden payload during runtime,AV-400,npm,AV-400
+gh182,Typosquatted package with legitimate functionality,Fake package provides expected features but silently logs user data,AV-200,PyPI,AV-200
+gh183,Dependency confusion with partial internal resolution,Some dependencies resolve internally while others are overridden by public packages,AV-509,npm,AV-509
+gh184,Unicode obfuscation mixed with valid logic,Code contains both valid logic and hidden Unicode-based manipulation,AV-300,GitHub,AV-300
+gh185,CI pipeline step conditionally executes malicious code,Malicious step only triggers under specific environment conditions,AV-410,GitHub Actions,AV-410
+gh186,Package downloads external config that enables attack,Library fetches remote config which activates malicious behavior,AV-400,npm,AV-400
+gh187,Nearly identical package name with subtle character swap,Package uses visually similar characters to impersonate trusted library,AV-200,PyPI,AV-200
+gh188,Dependency confusion affecting nested dependencies,Attack targets indirect dependency rather than top-level package,AV-509,npm,AV-509
+gh189,Unicode Trojan hidden inside comments,Malicious logic embedded in comments using encoding tricks,AV-300,GitHub,AV-300
+gh190,CI workflow triggers attack only on release builds,Malicious step activates only during production release pipeline,AV-410,GitHub Actions,AV-410
+gh191,Package delays malicious execution to avoid detection,Malicious behavior triggered after delay or repeated use,AV-400,PyPI,AV-400
+gh192,Typosquatted package with correct documentation,Fake package includes full documentation to appear legitimate,AV-200,GitHub,AV-200
+gh193,Dependency confusion exploiting fallback mechanism,System falls back to public registry when private package unavailable,AV-509,npm,AV-509
+gh194,Unicode bidirectional text alters code review perception,Code appears safe in review but executes differently due to directionality,AV-300,GitHub,AV-300
+gh195,CI pipeline injects code through environment variable misuse,Malicious payload injected via manipulated environment variables,AV-410,GitHub Actions,AV-410
+gh196,Library performs legitimate tasks while leaking small data,Data exfiltration occurs gradually alongside normal functionality,AV-400,npm,AV-400
+gh197,Typosquatting using homoglyph characters,Package name uses Unicode homoglyphs to deceive users,AV-200,PyPI,AV-200
+gh198,Dependency confusion via mirrored repository mismatch,Public mirror overrides trusted internal package source,AV-509,Docker Hub,AV-509
+gh199,Unicode attack modifies control flow invisibly,Hidden Unicode changes execution path without visible differences,AV-300,GitHub,AV-300
+gh200,CI workflow executes hidden script from encoded variable,Encoded payload stored in variable is decoded and executed in pipeline,AV-410,GitHub Actions,AV-410
