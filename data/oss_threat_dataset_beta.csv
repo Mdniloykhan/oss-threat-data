@@ -494,3 +494,523 @@ gh497,Typosquatting using semantic similarity in naming,Package name closely res
 gh498,Dependency confusion via container image digest mismatch,Digest mismatch causes malicious image resolution,AV-509,https://github.com/example/oss-security/issues/498,AV-509
 gh499,Unicode attack modifies hash computation logic,Hidden characters alter cryptographic hash behavior,AV-300,https://github.com/example/oss-security/issues/499,AV-300
 gh500,CI workflow executes payload via staged deployment script override,Deployment script replaced leading to malicious execution,AV-410,https://github.com/example/oss-security/issues/500,AV-410
+gh501,Package activates payload after VPN connection detected,Malicious code triggers only when VPN usage is detected,AV-400,https://github.com/example/oss-security/issues/501,AV-400
+gh502,Typosquatted package mimics data visualization library,Fake package imitates visualization tool and leaks rendered data,AV-200,https://github.com/example/oss-security/issues/502,AV-200
+gh503,Dependency confusion via geo-based registry resolution,Registry resolution varies by location allowing malicious package delivery,AV-509,https://github.com/example/oss-security/issues/503,AV-509
+gh504,Unicode obfuscation hides callback queue manipulation,Hidden characters alter execution order of callbacks,AV-300,https://github.com/example/oss-security/issues/504,AV-300
+gh505,CI pipeline executes payload only on canary deployments,Malicious step activates during canary release workflows,AV-410,https://github.com/example/oss-security/issues/505,AV-410
+gh506,Library monitors system uptime patterns and exfiltrates data,Package analyzes uptime behavior and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/506,AV-400
+gh507,Typosquatting using abbreviation and case variation,Package combines abbreviation and case tricks to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/507,AV-200
+gh508,Dependency confusion via fallback to deprecated registry,Deprecated registry fallback resolves malicious package,AV-509,https://github.com/example/oss-security/issues/508,AV-509
+gh509,Unicode attack alters conditional short-circuit logic,Hidden encoding changes evaluation of logical operators,AV-300,https://github.com/example/oss-security/issues/509,AV-300
+gh510,CI workflow executes payload via injected composite action,Composite GitHub Action modified to include malicious steps,AV-410,https://github.com/example/oss-security/issues/510,AV-410
+gh511,Malicious package scans user-installed extensions,Library inspects installed plugins/extensions and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/511,AV-400
+gh512,Typosquatted package mimics localization library,Fake package imitates i18n tool and captures translation data,AV-200,https://github.com/example/oss-security/issues/512,AV-200
+gh513,Dependency confusion via inconsistent workspace configuration,Workspace misconfiguration leads to malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/513,AV-509
+gh514,Unicode obfuscation hides promise chaining manipulation,Hidden characters alter chained promise execution order,AV-300,https://github.com/example/oss-security/issues/514,AV-300
+gh515,CI pipeline executes payload via environment matrix override,Matrix variables manipulated to include malicious execution path,AV-410,https://github.com/example/oss-security/issues/515,AV-410
+gh516,Library activates payload based on thermal sensor data,Malicious behavior triggers under specific device temperature conditions,AV-400,https://github.com/example/oss-security/issues/516,AV-400
+gh517,Typosquatting using domain extension confusion,Package associated with domain using misleading TLD,AV-200,https://github.com/example/oss-security/issues/517,AV-200
+gh518,Dependency confusion via package manager plugin conflict,Plugin conflict causes malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/518,AV-509
+gh519,Unicode attack modifies floating point comparison logic,Hidden characters alter precision comparison outcomes,AV-300,https://github.com/example/oss-security/issues/519,AV-300
+gh520,CI workflow executes payload via staged release artifact swap,Release artifact replaced between stages enabling attack,AV-410,https://github.com/example/oss-security/issues/520,AV-410
+gh521,Package activates payload when external USB device connected,Malicious logic triggers upon detection of removable media,AV-400,https://github.com/example/oss-security/issues/521,AV-400
+gh522,Typosquatted package mimics PDF processing library,Fake package imitates PDF tool and extracts document contents,AV-200,https://github.com/example/oss-security/issues/522,AV-200
+gh523,Dependency confusion via DNS-based registry redirection,Malicious DNS resolution redirects dependency requests,AV-509,https://github.com/example/oss-security/issues/523,AV-509
+gh524,Unicode obfuscation hides event emitter manipulation,Hidden characters alter event emission and listener execution,AV-300,https://github.com/example/oss-security/issues/524,AV-300
+gh525,CI pipeline executes payload only on infrastructure provisioning,Malicious step triggers during infrastructure setup workflows,AV-410,https://github.com/example/oss-security/issues/525,AV-410
+gh526,Library monitors clipboard history and exfiltrates entries,Package accesses clipboard logs and sends data externally,AV-400,https://github.com/example/oss-security/issues/526,AV-400
+gh527,Typosquatting using whitespace and encoding tricks,Package name visually mimics trusted library using hidden spacing,AV-200,https://github.com/example/oss-security/issues/527,AV-200
+gh528,Dependency confusion via API gateway registry proxy,Gateway proxy resolves malicious dependency due to routing flaw,AV-509,https://github.com/example/oss-security/issues/528,AV-509
+gh529,Unicode attack alters recursion termination condition,Hidden encoding changes when recursion stops,AV-300,https://github.com/example/oss-security/issues/529,AV-300
+gh530,CI workflow executes payload via self-hosted runner compromise,Compromised runner executes injected malicious commands,AV-410,https://github.com/example/oss-security/issues/530,AV-410
+gh531,Malicious package scans system registry entries,Library inspects registry keys and exfiltrates sensitive info,AV-400,https://github.com/example/oss-security/issues/531,AV-400
+gh532,Typosquatted package mimics compression library,Fake package imitates compression tool and leaks archive contents,AV-200,https://github.com/example/oss-security/issues/532,AV-200
+gh533,Dependency confusion via parallel registry fallback misalignment,Multiple fallbacks resolve inconsistent and malicious packages,AV-509,https://github.com/example/oss-security/issues/533,AV-509
+gh534,Unicode obfuscation hides state machine transition manipulation,Hidden characters alter state transitions in logic flow,AV-300,https://github.com/example/oss-security/issues/534,AV-300
+gh535,CI pipeline executes payload via secrets masking bypass,Masked secrets revealed and used for malicious execution,AV-410,https://github.com/example/oss-security/issues/535,AV-410
+gh536,Library activates payload based on network jitter conditions,Malicious logic triggers under fluctuating network conditions,AV-400,https://github.com/example/oss-security/issues/536,AV-400
+gh537,Typosquatting using combined homoglyph and suffix trick,Package blends homoglyphs with suffix to deceive users,AV-200,https://github.com/example/oss-security/issues/537,AV-200
+gh538,Dependency confusion via container orchestration namespace conflict,Namespace conflict leads to malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/538,AV-509
+gh539,Unicode attack modifies buffer handling logic,Hidden encoding alters memory buffer processing behavior,AV-300,https://github.com/example/oss-security/issues/539,AV-300
+gh540,CI workflow executes payload via staged permission escalation,Permissions escalated across stages enabling malicious execution,AV-410,https://github.com/example/oss-security/issues/540,AV-410
+gh541,Package activates payload when screen resolution changes,Malicious code triggers upon detecting display configuration change,AV-400,https://github.com/example/oss-security/issues/541,AV-400
+gh542,Typosquatted package mimics email client library,Fake package imitates email utility and captures message contents,AV-200,https://github.com/example/oss-security/issues/542,AV-200
+gh543,Dependency confusion via load-balanced registry inconsistency,Load balancer routes to malicious package source intermittently,AV-509,https://github.com/example/oss-security/issues/543,AV-509
+gh544,Unicode obfuscation hides callback priority manipulation,Hidden characters alter execution priority of callbacks,AV-300,https://github.com/example/oss-security/issues/544,AV-300
+gh545,CI pipeline executes payload only during rollback validation,Malicious step triggers in rollback verification stage,AV-410,https://github.com/example/oss-security/issues/545,AV-410
+gh546,Library monitors active window titles and exfiltrates data,Package captures foreground window information and sends externally,AV-400,https://github.com/example/oss-security/issues/546,AV-400
+gh547,Typosquatting using punctuation-based variation,Package inserts punctuation to resemble trusted library name,AV-200,https://github.com/example/oss-security/issues/547,AV-200
+gh548,Dependency confusion via cross-region registry mismatch,Regional mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/548,AV-509
+gh549,Unicode attack alters list indexing behavior,Hidden encoding changes index evaluation in arrays,AV-300,https://github.com/example/oss-security/issues/549,AV-300
+gh550,CI workflow executes payload via staged log injection,Injected logs trigger malicious execution in later stages,AV-410,https://github.com/example/oss-security/issues/550,AV-410
+gh551,Malicious package scans environment variable history,Library inspects stored environment variables and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/551,AV-400
+gh552,Typosquatted package mimics analytics library,Fake package imitates analytics tool and leaks usage metrics,AV-200,https://github.com/example/oss-security/issues/552,AV-200
+gh553,Dependency confusion via artifact signature verification bypass,Signature validation flaw allows malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/553,AV-509
+gh554,Unicode obfuscation hides async event queue manipulation,Hidden characters alter event queue processing,AV-300,https://github.com/example/oss-security/issues/554,AV-300
+gh555,CI pipeline executes payload via misconfigured deployment hook,Hook misconfiguration introduces malicious execution,AV-410,https://github.com/example/oss-security/issues/555,AV-410
+gh556,Library activates payload based on CPU temperature threshold,Malicious behavior triggers under thermal conditions,AV-400,https://github.com/example/oss-security/issues/556,AV-400
+gh557,Typosquatting using multi-language transliteration,Package name mimics trusted library across language scripts,AV-200,https://github.com/example/oss-security/issues/557,AV-200
+gh558,Dependency confusion via multi-cloud registry inconsistency,Different cloud registries resolve conflicting dependencies,AV-509,https://github.com/example/oss-security/issues/558,AV-509
+gh559,Unicode attack modifies exception handling fallback,Hidden encoding alters fallback execution paths,AV-300,https://github.com/example/oss-security/issues/559,AV-300
+gh560,CI workflow executes payload via staged infrastructure drift,Infrastructure drift introduces malicious execution path,AV-410,https://github.com/example/oss-security/issues/560,AV-410
+gh561,Package activates payload when battery level drops below threshold,Malicious code triggers under low battery conditions,AV-400,https://github.com/example/oss-security/issues/561,AV-400
+gh562,Typosquatted package mimics notification library,Fake package imitates notification tool and captures message content,AV-200,https://github.com/example/oss-security/issues/562,AV-200
+gh563,Dependency confusion via registry DNS cache poisoning,Poisoned DNS cache resolves dependency to malicious source,AV-509,https://github.com/example/oss-security/issues/563,AV-509
+gh564,Unicode obfuscation hides promise resolution manipulation,Hidden characters alter promise fulfillment behavior,AV-300,https://github.com/example/oss-security/issues/564,AV-300
+gh565,CI pipeline executes payload only during feature flag rollout,Malicious step triggers during controlled feature deployments,AV-410,https://github.com/example/oss-security/issues/565,AV-410
+gh566,Library monitors background services and exfiltrates data,Package scans background processes and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/566,AV-400
+gh567,Typosquatting using repeated character insertion,Package adds repeated letters to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/567,AV-200
+gh568,Dependency confusion via federated registry misalignment,Federated registries resolve inconsistent dependencies allowing malicious override,AV-509,https://github.com/example/oss-security/issues/568,AV-509
+gh569,Unicode attack alters loop break conditions,Hidden encoding changes when loops terminate,AV-300,https://github.com/example/oss-security/issues/569,AV-300
+gh570,CI workflow executes payload via staged notification hook,Notification hook manipulated to trigger malicious execution,AV-410,https://github.com/example/oss-security/issues/570,AV-410
+gh571,Malicious package scans running containers,Library inspects active containers and exfiltrates configuration data,AV-400,https://github.com/example/oss-security/issues/571,AV-400
+gh572,Typosquatted package mimics messaging library,Fake package imitates messaging tool and captures communications,AV-200,https://github.com/example/oss-security/issues/572,AV-200
+gh573,Dependency confusion via version metadata tampering,Altered metadata leads to malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/573,AV-509
+gh574,Unicode obfuscation hides scheduler manipulation,Hidden characters alter task scheduling behavior,AV-300,https://github.com/example/oss-security/issues/574,AV-300
+gh575,CI pipeline executes payload via dynamic workflow dispatch override,Dispatch inputs manipulated to inject malicious execution path,AV-410,https://github.com/example/oss-security/issues/575,AV-410
+gh576,Library activates payload based on network throughput threshold,Malicious logic triggers under specific bandwidth conditions,AV-400,https://github.com/example/oss-security/issues/576,AV-400
+gh577,Typosquatting using combined numeric and symbol substitution,Package replaces letters with numbers and symbols to deceive users,AV-200,https://github.com/example/oss-security/issues/577,AV-200
+gh578,Dependency confusion via container runtime plugin misconfiguration,Runtime plugin resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/578,AV-509
+gh579,Unicode attack modifies data alignment in memory operations,Hidden encoding affects memory processing logic,AV-300,https://github.com/example/oss-security/issues/579,AV-300
+gh580,CI workflow executes payload via staged environment secret override,Secrets overridden across stages enable malicious execution,AV-410,https://github.com/example/oss-security/issues/580,AV-410
+gh581,Package activates payload when system enters sleep mode,Malicious code triggers during system sleep or wake transition,AV-400,https://github.com/example/oss-security/issues/581,AV-400
+gh582,Typosquatted package mimics search utility library,Fake package imitates search tool and captures query inputs,AV-200,https://github.com/example/oss-security/issues/582,AV-200
+gh583,Dependency confusion via registry failover misconfiguration,Failover system resolves malicious dependency instead of trusted one,AV-509,https://github.com/example/oss-security/issues/583,AV-509
+gh584,Unicode obfuscation hides async task prioritization manipulation,Hidden characters alter task scheduling priority invisibly,AV-300,https://github.com/example/oss-security/issues/584,AV-300
+gh585,CI pipeline executes payload only during emergency patch releases,Malicious step triggers in emergency release workflows,AV-410,https://github.com/example/oss-security/issues/585,AV-410
+gh586,Library monitors running threads and exfiltrates metadata,Package inspects thread activity and sends data externally,AV-400,https://github.com/example/oss-security/issues/586,AV-400
+gh587,Typosquatting using whitespace normalization bypass,Package uses invisible characters to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/587,AV-200
+gh588,Dependency confusion via artifact mirror prioritization flaw,Mirror priority resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/588,AV-509
+gh589,Unicode attack alters switch-case execution flow,Hidden encoding modifies branch execution logic,AV-300,https://github.com/example/oss-security/issues/589,AV-300
+gh590,CI workflow executes payload via conditional stage injection,Condition manipulation triggers hidden malicious stage,AV-410,https://github.com/example/oss-security/issues/590,AV-410
+gh591,Malicious package scans system services configuration,Library inspects service configs and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/591,AV-400
+gh592,Typosquatted package mimics localization framework,Fake package imitates i18n framework and leaks translation data,AV-200,https://github.com/example/oss-security/issues/592,AV-200
+gh593,Dependency confusion via distributed cache inconsistency,Cache mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/593,AV-509
+gh594,Unicode obfuscation hides coroutine state manipulation,Hidden characters alter coroutine lifecycle behavior,AV-300,https://github.com/example/oss-security/issues/594,AV-300
+gh595,CI pipeline executes payload via modified environment validation step,Validation logic altered to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/595,AV-410
+gh596,Library activates payload based on disk latency threshold,Malicious behavior triggers under specific I/O latency conditions,AV-400,https://github.com/example/oss-security/issues/596,AV-400
+gh597,Typosquatting using combined prefix and homoglyph trick,Package uses prefix and character substitution to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/597,AV-200
+gh598,Dependency confusion via container image tag drift,Tag drift leads to malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/598,AV-509
+gh599,Unicode attack modifies concurrency control logic,Hidden encoding alters thread synchronization behavior,AV-300,https://github.com/example/oss-security/issues/599,AV-300
+gh600,CI workflow executes payload via staged rollback validation override,Rollback validation bypass enables malicious execution,AV-410,https://github.com/example/oss-security/issues/600,AV-410
+gh601,Package activates payload when system brightness changes,Malicious code triggers upon detecting display brightness adjustment,AV-400,https://github.com/example/oss-security/issues/601,AV-400
+gh602,Typosquatted package mimics logging utility,Fake package imitates logging tool and exfiltrates log data,AV-200,https://github.com/example/oss-security/issues/602,AV-200
+gh603,Dependency confusion via fallback to insecure mirror,Insecure mirror resolves malicious dependency when primary fails,AV-509,https://github.com/example/oss-security/issues/603,AV-509
+gh604,Unicode obfuscation hides event dispatch manipulation,Hidden characters alter event dispatch execution flow,AV-300,https://github.com/example/oss-security/issues/604,AV-300
+gh605,CI pipeline executes payload only during blue/green switch-over,Malicious step triggers during environment switch,AV-410,https://github.com/example/oss-security/issues/605,AV-410
+gh606,Library monitors file permission changes and exfiltrates data,Package tracks permission updates and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/606,AV-400
+gh607,Typosquatting using Unicode homoglyph blending,Package blends Unicode characters to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/607,AV-200
+gh608,Dependency confusion via inconsistent package alias resolution,Alias mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/608,AV-509
+gh609,Unicode attack alters arithmetic overflow handling,Hidden encoding changes overflow behavior in calculations,AV-300,https://github.com/example/oss-security/issues/609,AV-300
+gh610,CI workflow executes payload via staged build cache poisoning,Cache poisoning leads to execution of malicious build artifacts,AV-410,https://github.com/example/oss-security/issues/610,AV-410
+gh611,Malicious package scans user directory structure,Library enumerates file directories and exfiltrates structure data,AV-400,https://github.com/example/oss-security/issues/611,AV-400
+gh612,Typosquatted package mimics configuration loader,Fake package imitates config loader and captures sensitive settings,AV-200,https://github.com/example/oss-security/issues/612,AV-200
+gh613,Dependency confusion via version fallback inconsistency,Fallback logic resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/613,AV-509
+gh614,Unicode obfuscation hides async generator manipulation,Hidden characters alter async generator execution flow,AV-300,https://github.com/example/oss-security/issues/614,AV-300
+gh615,CI pipeline executes payload via dynamic stage reordering,Stage order manipulation introduces malicious execution,AV-410,https://github.com/example/oss-security/issues/615,AV-410
+gh616,Library activates payload based on system fan speed,Malicious logic triggers under specific thermal conditions,AV-400,https://github.com/example/oss-security/issues/616,AV-400
+gh617,Typosquatting using multi-script character mixing,Package mixes scripts to resemble trusted library name,AV-200,https://github.com/example/oss-security/issues/617,AV-200
+gh618,Dependency confusion via cross-platform build inconsistency,Platform-specific builds resolve malicious dependency,AV-509,https://github.com/example/oss-security/issues/618,AV-509
+gh619,Unicode attack modifies recursion depth limits,Hidden encoding alters recursion boundaries,AV-300,https://github.com/example/oss-security/issues/619,AV-300
+gh620,CI workflow executes payload via staged environment rollback manipulation,Rollback stage altered to execute malicious code,AV-410,https://github.com/example/oss-security/issues/620,AV-410
+gh621,Package activates payload when screen lock is engaged,Malicious code triggers upon detecting system lock event,AV-400,https://github.com/example/oss-security/issues/621,AV-400
+gh622,Typosquatted package mimics date-time utility library,Fake package imitates time utility and captures timestamped data,AV-200,https://github.com/example/oss-security/issues/622,AV-200
+gh623,Dependency confusion via stale DNS cache resolution,Outdated DNS entries resolve malicious dependency source,AV-509,https://github.com/example/oss-security/issues/623,AV-509
+gh624,Unicode obfuscation hides event subscription manipulation,Hidden characters alter event subscription logic,AV-300,https://github.com/example/oss-security/issues/624,AV-300
+gh625,CI pipeline executes payload only during staged rollout verification,Malicious step triggers during rollout checks,AV-410,https://github.com/example/oss-security/issues/625,AV-410
+gh626,Library monitors API call frequency and exfiltrates data,Package tracks API usage patterns and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/626,AV-400
+gh627,Typosquatting using invisible Unicode separators,Package inserts invisible separators to mimic trusted name,AV-200,https://github.com/example/oss-security/issues/627,AV-200
+gh628,Dependency confusion via mirror synchronization lag,Delayed mirror sync resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/628,AV-509
+gh629,Unicode attack alters pointer dereferencing behavior,Hidden encoding changes pointer resolution logic,AV-300,https://github.com/example/oss-security/issues/629,AV-300
+gh630,CI workflow executes payload via staged approval bypass,Approval stage manipulated to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/630,AV-410
+gh631,Malicious package scans system startup entries,Library inspects startup configuration and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/631,AV-400
+gh632,Typosquatted package mimics encryption toolkit,Fake package imitates crypto tool and leaks encryption keys,AV-200,https://github.com/example/oss-security/issues/632,AV-200
+gh633,Dependency confusion via inconsistent artifact checksum validation,Checksum mismatch allows malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/633,AV-509
+gh634,Unicode obfuscation hides thread pool manipulation,Hidden characters alter thread pool scheduling behavior,AV-300,https://github.com/example/oss-security/issues/634,AV-300
+gh635,CI pipeline executes payload via dynamic job dependency injection,Job dependencies manipulated to trigger malicious step,AV-410,https://github.com/example/oss-security/issues/635,AV-410
+gh636,Library activates payload based on system clock drift,Malicious logic triggers when clock drift is detected,AV-400,https://github.com/example/oss-security/issues/636,AV-400
+gh637,Typosquatting using multi-layered naming deception,Package combines multiple tricks to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/637,AV-200
+gh638,Dependency confusion via fallback to legacy registry endpoint,Legacy endpoint resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/638,AV-509
+gh639,Unicode attack modifies lazy evaluation logic,Hidden encoding changes evaluation timing of expressions,AV-300,https://github.com/example/oss-security/issues/639,AV-300
+gh640,CI workflow executes payload via staged infrastructure validation bypass,Validation step bypass enables malicious execution,AV-410,https://github.com/example/oss-security/issues/640,AV-410
+gh641,Package activates payload when keyboard layout changes,Malicious code triggers upon detecting keyboard configuration change,AV-400,https://github.com/example/oss-security/issues/641,AV-400
+gh642,Typosquatted package mimics hashing utility library,Fake package imitates hashing tool and leaks computed hash data,AV-200,https://github.com/example/oss-security/issues/642,AV-200
+gh643,Dependency confusion via registry endpoint misconfiguration,Incorrect endpoint resolves malicious dependency source,AV-509,https://github.com/example/oss-security/issues/643,AV-509
+gh644,Unicode obfuscation hides callback chaining manipulation,Hidden characters alter chaining of callbacks,AV-300,https://github.com/example/oss-security/issues/644,AV-300
+gh645,CI pipeline executes payload only during staged A/B testing rollout,Malicious step triggers during A/B testing workflows,AV-410,https://github.com/example/oss-security/issues/645,AV-410
+gh646,Library monitors file rename operations and exfiltrates data,Package tracks file rename events and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/646,AV-400
+gh647,Typosquatting using mirrored character substitution,Package uses visually mirrored characters to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/647,AV-200
+gh648,Dependency confusion via inconsistent version resolution across environments,Different environments resolve malicious dependency version,AV-509,https://github.com/example/oss-security/issues/648,AV-509
+gh649,Unicode attack alters queue processing logic,Hidden encoding changes order of queue processing,AV-300,https://github.com/example/oss-security/issues/649,AV-300
+gh650,CI workflow executes payload via staged artifact integrity bypass,Integrity check bypass allows malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/650,AV-410
+gh651,Malicious package scans connected peripheral devices,Library inspects connected devices and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/651,AV-400
+gh652,Typosquatted package mimics serialization library,Fake package imitates serializer and leaks structured data,AV-200,https://github.com/example/oss-security/issues/652,AV-200
+gh653,Dependency confusion via inconsistent dependency graph resolution,Graph resolution flaw leads to malicious dependency inclusion,AV-509,https://github.com/example/oss-security/issues/653,AV-509
+gh654,Unicode obfuscation hides iterator invalidation manipulation,Hidden characters alter iterator lifecycle behavior,AV-300,https://github.com/example/oss-security/issues/654,AV-300
+gh655,CI pipeline executes payload via dynamic environment variable injection,Injected variables trigger malicious execution path,AV-410,https://github.com/example/oss-security/issues/655,AV-410
+gh656,Library activates payload based on process scheduling delay,Malicious behavior triggers under scheduling anomalies,AV-400,https://github.com/example/oss-security/issues/656,AV-400
+gh657,Typosquatting using cross-language naming similarity,Package name mimics trusted library across programming languages,AV-200,https://github.com/example/oss-security/issues/657,AV-200
+gh658,Dependency confusion via stale lock file resolution,Outdated lock file resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/658,AV-509
+gh659,Unicode attack modifies resource allocation logic,Hidden encoding alters allocation behavior,AV-300,https://github.com/example/oss-security/issues/659,AV-300
+gh660,CI workflow executes payload via staged deployment validation override,Validation stage bypass enables malicious execution,AV-410,https://github.com/example/oss-security/issues/660,AV-410
+gh661,Package activates payload when system volume level changes,Malicious code triggers upon detecting audio volume adjustment,AV-400,https://github.com/example/oss-security/issues/661,AV-400
+gh662,Typosquatted package mimics command-line parsing library,Fake package imitates CLI parser and captures command inputs,AV-200,https://github.com/example/oss-security/issues/662,AV-200
+gh663,Dependency confusion via inconsistent registry authentication fallback,Authentication failure resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/663,AV-509
+gh664,Unicode obfuscation hides event loop priority manipulation,Hidden characters alter priority scheduling in event loops,AV-300,https://github.com/example/oss-security/issues/664,AV-300
+gh665,CI pipeline executes payload only during staged feature deprecation,Malicious step triggers during feature removal workflows,AV-410,https://github.com/example/oss-security/issues/665,AV-410
+gh666,Library monitors system clipboard events and exfiltrates data,Package tracks clipboard usage and sends data externally,AV-400,https://github.com/example/oss-security/issues/666,AV-400
+gh667,Typosquatting using visually similar multi-byte characters,Package uses multi-byte Unicode characters to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/667,AV-200
+gh668,Dependency confusion via misconfigured artifact promotion pipeline,Promotion pipeline resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/668,AV-509
+gh669,Unicode attack alters concurrency queue behavior,Hidden encoding changes processing order in concurrent queues,AV-300,https://github.com/example/oss-security/issues/669,AV-300
+gh670,CI workflow executes payload via staged notification system manipulation,Notification triggers malicious execution in later stages,AV-410,https://github.com/example/oss-security/issues/670,AV-410
+gh671,Malicious package scans local database connections,Library inspects DB connections and exfiltrates metadata,AV-400,https://github.com/example/oss-security/issues/671,AV-400
+gh672,Typosquatted package mimics data validation library,Fake package imitates validation tool and bypasses input checks,AV-200,https://github.com/example/oss-security/issues/672,AV-200
+gh673,Dependency confusion via version resolution race condition,Race condition leads to malicious dependency inclusion,AV-509,https://github.com/example/oss-security/issues/673,AV-509
+gh674,Unicode obfuscation hides memory allocation manipulation,Hidden characters alter allocation and deallocation logic,AV-300,https://github.com/example/oss-security/issues/674,AV-300
+gh675,CI pipeline executes payload via staged test suite override,Test stage modified to include malicious execution,AV-410,https://github.com/example/oss-security/issues/675,AV-410
+gh676,Library activates payload based on network packet loss threshold,Malicious behavior triggers under unstable network conditions,AV-400,https://github.com/example/oss-security/issues/676,AV-400
+gh677,Typosquatting using partial word truncation,Package truncates trusted library name to deceive users,AV-200,https://github.com/example/oss-security/issues/677,AV-200
+gh678,Dependency confusion via cross-project dependency leakage,Dependencies leak across projects allowing malicious resolution,AV-509,https://github.com/example/oss-security/issues/678,AV-509
+gh679,Unicode attack modifies exception logging behavior,Hidden encoding alters logging of runtime exceptions,AV-300,https://github.com/example/oss-security/issues/679,AV-300
+gh680,CI workflow executes payload via staged infrastructure template injection,Template injection introduces malicious execution step,AV-410,https://github.com/example/oss-security/issues/680,AV-410
+gh681,Package activates payload when system theme changes,Malicious code triggers upon detecting UI theme switch,AV-400,https://github.com/example/oss-security/issues/681,AV-400
+gh682,Typosquatted package mimics configuration management library,Fake package imitates config manager and leaks settings,AV-200,https://github.com/example/oss-security/issues/682,AV-200
+gh683,Dependency confusion via registry caching layer inconsistency,Cache layer resolves malicious dependency intermittently,AV-509,https://github.com/example/oss-security/issues/683,AV-509
+gh684,Unicode obfuscation hides callback timeout manipulation,Hidden characters alter timeout execution behavior,AV-300,https://github.com/example/oss-security/issues/684,AV-300
+gh685,CI pipeline executes payload only during staged monitoring setup,Malicious step triggers during monitoring configuration,AV-410,https://github.com/example/oss-security/issues/685,AV-410
+gh686,Library monitors file deletion events and exfiltrates data,Package tracks deletion activity and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/686,AV-400
+gh687,Typosquatting using similar prefix and numeric variation,Package uses prefix and numbers to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/687,AV-200
+gh688,Dependency confusion via inconsistent plugin resolution,Plugin system resolves malicious dependency due to mismatch,AV-509,https://github.com/example/oss-security/issues/688,AV-509
+gh689,Unicode attack alters priority queue ordering logic,Hidden encoding changes queue ordering behavior,AV-300,https://github.com/example/oss-security/issues/689,AV-300
+gh690,CI workflow executes payload via staged audit log manipulation,Log manipulation leads to malicious execution in later stage,AV-410,https://github.com/example/oss-security/issues/690,AV-410
+gh691,Malicious package scans system update configurations,Library inspects update settings and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/691,AV-400
+gh692,Typosquatted package mimics metrics collection library,Fake package imitates metrics tool and leaks collected data,AV-200,https://github.com/example/oss-security/issues/692,AV-200
+gh693,Dependency confusion via build cache invalidation mismatch,Invalidation flaw resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/693,AV-509
+gh694,Unicode obfuscation hides async lock manipulation,Hidden characters alter locking behavior in async operations,AV-300,https://github.com/example/oss-security/issues/694,AV-300
+gh695,CI pipeline executes payload via staged permission inheritance override,Permission inheritance altered to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/695,AV-410
+gh696,Library activates payload based on CPU scheduling anomalies,Malicious logic triggers under unusual scheduling patterns,AV-400,https://github.com/example/oss-security/issues/696,AV-400
+gh697,Typosquatting using mixed abbreviation and homoglyphs,Package combines abbreviations and homoglyphs to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/697,AV-200
+gh698,Dependency confusion via container registry tag collision,Tag collision resolves malicious container dependency,AV-509,https://github.com/example/oss-security/issues/698,AV-509
+gh699,Unicode attack modifies lazy loading behavior,Hidden encoding alters when modules are loaded,AV-300,https://github.com/example/oss-security/issues/699,AV-300
+gh700,CI workflow executes payload via staged rollback script injection,Rollback script replaced to execute malicious commands,AV-410,https://github.com/example/oss-security/issues/700,AV-410
+gh701,Package activates payload when system notification settings change,Malicious code triggers upon detecting notification configuration updates,AV-400,https://github.com/example/oss-security/issues/701,AV-400
+gh702,Typosquatted package mimics file upload library,Fake package imitates upload tool and captures transmitted files,AV-200,https://github.com/example/oss-security/issues/702,AV-200
+gh703,Dependency confusion via inconsistent fallback priority chain,Fallback chain resolves malicious dependency before trusted source,AV-509,https://github.com/example/oss-security/issues/703,AV-509
+gh704,Unicode obfuscation hides async callback cancellation manipulation,Hidden characters alter cancellation behavior of callbacks,AV-300,https://github.com/example/oss-security/issues/704,AV-300
+gh705,CI pipeline executes payload only during staged logging configuration,Malicious step triggers during logging setup phase,AV-410,https://github.com/example/oss-security/issues/705,AV-410
+gh706,Library monitors process creation events and exfiltrates data,Package tracks new processes and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/706,AV-400
+gh707,Typosquatting using suffix replacement with homoglyphs,Package replaces suffix characters to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/707,AV-200
+gh708,Dependency confusion via distributed registry synchronization error,Sync error resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/708,AV-509
+gh709,Unicode attack alters resource deallocation timing,Hidden encoding changes when resources are released,AV-300,https://github.com/example/oss-security/issues/709,AV-300
+gh710,CI workflow executes payload via staged configuration drift manipulation,Config drift introduces malicious execution path,AV-410,https://github.com/example/oss-security/issues/710,AV-410
+gh711,Malicious package scans system firewall rules,Library inspects firewall configuration and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/711,AV-400
+gh712,Typosquatted package mimics authentication middleware,Fake package imitates auth middleware and captures credentials,AV-200,https://github.com/example/oss-security/issues/712,AV-200
+gh713,Dependency confusion via version constraint misinterpretation,Constraint parsing error resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/713,AV-509
+gh714,Unicode obfuscation hides promise rejection chaining manipulation,Hidden characters alter rejection handling flow,AV-300,https://github.com/example/oss-security/issues/714,AV-300
+gh715,CI pipeline executes payload via staged deployment hook override,Hook override introduces malicious execution,AV-410,https://github.com/example/oss-security/issues/715,AV-410
+gh716,Library activates payload based on system interrupt frequency,Malicious behavior triggers under high interrupt conditions,AV-400,https://github.com/example/oss-security/issues/716,AV-400
+gh717,Typosquatting using mixed-case homoglyph substitution,Package combines case variation and homoglyphs to deceive users,AV-200,https://github.com/example/oss-security/issues/717,AV-200
+gh718,Dependency confusion via inconsistent build metadata propagation,Metadata mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/718,AV-509
+gh719,Unicode attack modifies dynamic dispatch logic,Hidden encoding alters method dispatch behavior,AV-300,https://github.com/example/oss-security/issues/719,AV-300
+gh720,CI workflow executes payload via staged environment isolation bypass,Isolation bypass enables malicious execution across stages,AV-410,https://github.com/example/oss-security/issues/720,AV-410
+gh721,Package activates payload when system locale changes,Malicious code triggers upon detecting locale configuration updates,AV-400,https://github.com/example/oss-security/issues/721,AV-400
+gh722,Typosquatted package mimics caching middleware library,Fake package imitates caching tool and leaks stored data,AV-200,https://github.com/example/oss-security/issues/722,AV-200
+gh723,Dependency confusion via registry API version mismatch,API mismatch resolves malicious dependency instead of trusted source,AV-509,https://github.com/example/oss-security/issues/723,AV-509
+gh724,Unicode obfuscation hides event queue draining manipulation,Hidden characters alter queue draining behavior,AV-300,https://github.com/example/oss-security/issues/724,AV-300
+gh725,CI pipeline executes payload only during staged rollback preparation,Malicious step triggers during rollback setup phase,AV-410,https://github.com/example/oss-security/issues/725,AV-410
+gh726,Library monitors file metadata changes and exfiltrates data,Package tracks metadata updates and sends data externally,AV-400,https://github.com/example/oss-security/issues/726,AV-400
+gh727,Typosquatting using punctuation and homoglyph combination,Package combines punctuation and homoglyphs to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/727,AV-200
+gh728,Dependency confusion via inconsistent artifact repository sync,Sync inconsistency resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/728,AV-509
+gh729,Unicode attack alters task scheduling fairness logic,Hidden encoding changes fairness of task scheduling,AV-300,https://github.com/example/oss-security/issues/729,AV-300
+gh730,CI workflow executes payload via staged secret propagation misuse,Improper secret propagation enables malicious execution,AV-410,https://github.com/example/oss-security/issues/730,AV-410
+gh731,Malicious package scans system update history,Library inspects update logs and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/731,AV-400
+gh732,Typosquatted package mimics data serialization framework,Fake package imitates serializer and leaks structured data,AV-200,https://github.com/example/oss-security/issues/732,AV-200
+gh733,Dependency confusion via inconsistent environment resolution priority,Environment priority mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/733,AV-509
+gh734,Unicode obfuscation hides coroutine cancellation manipulation,Hidden characters alter coroutine cancellation behavior,AV-300,https://github.com/example/oss-security/issues/734,AV-300
+gh735,CI pipeline executes payload via staged job condition override,Condition override introduces malicious execution path,AV-410,https://github.com/example/oss-security/issues/735,AV-410
+gh736,Library activates payload based on system idle cycles,Malicious behavior triggers under repeated idle conditions,AV-400,https://github.com/example/oss-security/issues/736,AV-400
+gh737,Typosquatting using multi-character insertion trick,Package inserts extra characters to resemble trusted library,AV-200,https://github.com/example/oss-security/issues/737,AV-200
+gh738,Dependency confusion via distributed cache expiration mismatch,Cache expiration mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/738,AV-509
+gh739,Unicode attack modifies heap allocation strategy,Hidden encoding alters memory allocation strategy,AV-300,https://github.com/example/oss-security/issues/739,AV-300
+gh740,CI workflow executes payload via staged deployment rollback override,Rollback override triggers malicious execution,AV-410,https://github.com/example/oss-security/issues/740,AV-410
+gh741,Package activates payload when display orientation changes,Malicious code triggers upon detecting screen rotation event,AV-400,https://github.com/example/oss-security/issues/741,AV-400
+gh742,Typosquatted package mimics HTTP client library,Fake package imitates HTTP client and captures outgoing requests,AV-200,https://github.com/example/oss-security/issues/742,AV-200
+gh743,Dependency confusion via registry fallback timeout exploitation,Timeout causes fallback to malicious dependency source,AV-509,https://github.com/example/oss-security/issues/743,AV-509
+gh744,Unicode obfuscation hides task queue prioritization manipulation,Hidden characters alter task priority scheduling,AV-300,https://github.com/example/oss-security/issues/744,AV-300
+gh745,CI pipeline executes payload only during staged security audit runs,Malicious step triggers during audit workflow phase,AV-410,https://github.com/example/oss-security/issues/745,AV-410
+gh746,Library monitors system event logs and exfiltrates data,Package reads event logs and sends sensitive metadata externally,AV-400,https://github.com/example/oss-security/issues/746,AV-400
+gh747,Typosquatting using mixed script homoglyph and numeric trick,Package combines scripts and numbers to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/747,AV-200
+gh748,Dependency confusion via inconsistent registry priority ordering,Priority misordering resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/748,AV-509
+gh749,Unicode attack alters synchronization barrier behavior,Hidden encoding changes thread barrier synchronization,AV-300,https://github.com/example/oss-security/issues/749,AV-300
+gh750,CI workflow executes payload via staged artifact validation bypass,Validation bypass allows malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/750,AV-410
+gh751,Malicious package scans local credential storage,Library inspects stored credentials and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/751,AV-400
+gh752,Typosquatted package mimics data parsing library,Fake package imitates parser and leaks processed data,AV-200,https://github.com/example/oss-security/issues/752,AV-200
+gh753,Dependency confusion via inconsistent dependency lock enforcement,Lock enforcement failure resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/753,AV-509
+gh754,Unicode obfuscation hides asynchronous event propagation manipulation,Hidden characters alter propagation of async events,AV-300,https://github.com/example/oss-security/issues/754,AV-300
+gh755,CI pipeline executes payload via staged environment validation bypass,Validation stage bypass triggers malicious execution,AV-410,https://github.com/example/oss-security/issues/755,AV-410
+gh756,Library activates payload based on system uptime threshold,Malicious behavior triggers after prolonged system runtime,AV-400,https://github.com/example/oss-security/issues/756,AV-400
+gh757,Typosquatting using phonetic and visual similarity combined,Package uses both sound and visual tricks to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/757,AV-200
+gh758,Dependency confusion via container image registry desynchronization,Desync resolves malicious container dependency,AV-509,https://github.com/example/oss-security/issues/758,AV-509
+gh759,Unicode attack modifies garbage collection behavior,Hidden encoding alters memory cleanup processes,AV-300,https://github.com/example/oss-security/issues/759,AV-300
+gh760,CI workflow executes payload via staged deployment policy override,Policy override allows malicious execution during deployment,AV-410,https://github.com/example/oss-security/issues/760,AV-410
+gh761,Package activates payload when display refresh rate changes,Malicious code triggers upon detecting refresh rate modification,AV-400,https://github.com/example/oss-security/issues/761,AV-400
+gh762,Typosquatted package mimics file system utility library,Fake package imitates file utility and captures file operations,AV-200,https://github.com/example/oss-security/issues/762,AV-200
+gh763,Dependency confusion via registry endpoint spoofing,Malicious endpoint impersonates trusted registry,AV-509,https://github.com/example/oss-security/issues/763,AV-509
+gh764,Unicode obfuscation hides event batching manipulation,Hidden characters alter batching behavior of events,AV-300,https://github.com/example/oss-security/issues/764,AV-300
+gh765,CI pipeline executes payload only during staged compliance checks,Malicious step triggers during compliance validation workflows,AV-410,https://github.com/example/oss-security/issues/765,AV-410
+gh766,Library monitors system error logs and exfiltrates data,Package reads error logs and sends sensitive data externally,AV-400,https://github.com/example/oss-security/issues/766,AV-400
+gh767,Typosquatting using character omission and homoglyph trick,Package omits characters and uses homoglyphs to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/767,AV-200
+gh768,Dependency confusion via registry caching TTL manipulation,TTL misconfiguration resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/768,AV-509
+gh769,Unicode attack alters semaphore synchronization logic,Hidden encoding changes semaphore coordination behavior,AV-300,https://github.com/example/oss-security/issues/769,AV-300
+gh770,CI workflow executes payload via staged artifact promotion override,Promotion stage manipulated to include malicious artifact,AV-410,https://github.com/example/oss-security/issues/770,AV-410
+gh771,Malicious package scans user authentication tokens,Library inspects stored tokens and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/771,AV-400
+gh772,Typosquatted package mimics stream processing library,Fake package imitates streaming tool and leaks processed data,AV-200,https://github.com/example/oss-security/issues/772,AV-200
+gh773,Dependency confusion via inconsistent package signature validation,Signature validation flaw resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/773,AV-509
+gh774,Unicode obfuscation hides async state transition manipulation,Hidden characters alter state transitions in async logic,AV-300,https://github.com/example/oss-security/issues/774,AV-300
+gh775,CI pipeline executes payload via staged policy enforcement bypass,Policy bypass allows malicious execution in pipeline,AV-410,https://github.com/example/oss-security/issues/775,AV-410
+gh776,Library activates payload based on system interrupt latency,Malicious logic triggers under specific latency conditions,AV-400,https://github.com/example/oss-security/issues/776,AV-400
+gh777,Typosquatting using phonetic similarity with encoding tricks,Package uses sound-alike naming with encoding deception,AV-200,https://github.com/example/oss-security/issues/777,AV-200
+gh778,Dependency confusion via multi-layer proxy misconfiguration,Proxy layers resolve malicious dependency,AV-509,https://github.com/example/oss-security/issues/778,AV-509
+gh779,Unicode attack modifies lock acquisition ordering,Hidden encoding alters order of lock acquisition,AV-300,https://github.com/example/oss-security/issues/779,AV-300
+gh780,CI workflow executes payload via staged rollback policy override,Rollback policy manipulation enables malicious execution,AV-410,https://github.com/example/oss-security/issues/780,AV-410
+gh781,Package activates payload when system timezone changes,Malicious code triggers upon detecting timezone modification,AV-400,https://github.com/example/oss-security/issues/781,AV-400
+gh782,Typosquatted package mimics URL parsing library,Fake package imitates URL parser and captures processed links,AV-200,https://github.com/example/oss-security/issues/782,AV-200
+gh783,Dependency confusion via registry certificate spoofing,Fake certificate allows malicious registry impersonation,AV-509,https://github.com/example/oss-security/issues/783,AV-509
+gh784,Unicode obfuscation hides async retry logic manipulation,Hidden characters alter retry behavior in async calls,AV-300,https://github.com/example/oss-security/issues/784,AV-300
+gh785,CI pipeline executes payload only during staged vulnerability scanning,Malicious step triggers during security scanning phase,AV-410,https://github.com/example/oss-security/issues/785,AV-410
+gh786,Library monitors system crash reports and exfiltrates data,Package reads crash logs and sends sensitive data externally,AV-400,https://github.com/example/oss-security/issues/786,AV-400
+gh787,Typosquatting using prefix duplication and homoglyphs,Package duplicates prefix characters with homoglyph substitution,AV-200,https://github.com/example/oss-security/issues/787,AV-200
+gh788,Dependency confusion via inconsistent SSL validation fallback,SSL validation failure resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/788,AV-509
+gh789,Unicode attack alters thread pooling behavior,Hidden encoding changes pooling strategy and execution flow,AV-300,https://github.com/example/oss-security/issues/789,AV-300
+gh790,CI workflow executes payload via staged build approval bypass,Approval stage manipulated to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/790,AV-410
+gh791,Malicious package scans API authentication headers,Library inspects headers and exfiltrates token data,AV-400,https://github.com/example/oss-security/issues/791,AV-400
+gh792,Typosquatted package mimics JSON processing library,Fake package imitates JSON tool and leaks structured data,AV-200,https://github.com/example/oss-security/issues/792,AV-200
+gh793,Dependency confusion via inconsistent dependency resolution caching,Cache mismatch resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/793,AV-509
+gh794,Unicode obfuscation hides promise chaining resolution manipulation,Hidden characters alter chaining resolution behavior,AV-300,https://github.com/example/oss-security/issues/794,AV-300
+gh795,CI pipeline executes payload via staged runtime configuration override,Runtime config manipulation triggers malicious execution,AV-410,https://github.com/example/oss-security/issues/795,AV-410
+gh796,Library activates payload based on system I/O wait time,Malicious logic triggers under high I/O wait conditions,AV-400,https://github.com/example/oss-security/issues/796,AV-400
+gh797,Typosquatting using combined truncation and homoglyph trick,Package truncates name and substitutes characters to deceive users,AV-200,https://github.com/example/oss-security/issues/797,AV-200
+gh798,Dependency confusion via container registry permission misconfiguration,Permission flaw allows malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/798,AV-509
+gh799,Unicode attack modifies scheduling fairness in concurrency control,Hidden encoding alters fairness of execution scheduling,AV-300,https://github.com/example/oss-security/issues/799,AV-300
+gh800,CI workflow executes payload via staged release gating bypass,Release gate bypass enables malicious deployment execution,AV-410,https://github.com/example/oss-security/issues/800,AV-410
+gh801,Package activates payload when system language pack updates,Malicious code triggers upon detecting language pack installation or update,AV-400,https://github.com/example/oss-security/issues/801,AV-400
+gh802,Typosquatted package mimics XML processing library,Fake package imitates XML parser and exfiltrates parsed data,AV-200,https://github.com/example/oss-security/issues/802,AV-200
+gh803,Dependency confusion via registry fallback misprioritization,Fallback order resolves malicious dependency before trusted source,AV-509,https://github.com/example/oss-security/issues/803,AV-509
+gh804,Unicode obfuscation hides event loop starvation manipulation,Hidden characters alter loop scheduling causing starvation issues,AV-300,https://github.com/example/oss-security/issues/804,AV-300
+gh805,CI pipeline executes payload only during staged backup operations,Malicious step triggers during backup workflow execution,AV-410,https://github.com/example/oss-security/issues/805,AV-410
+gh806,Library monitors system permission escalation events and exfiltrates data,Package tracks privilege changes and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/806,AV-400
+gh807,Typosquatting using Unicode normalization tricks,Package exploits normalization differences to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/807,AV-200
+gh808,Dependency confusion via inconsistent registry endpoint caching,Endpoint caching inconsistency resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/808,AV-509
+gh809,Unicode attack alters concurrent map iteration behavior,Hidden encoding changes iteration logic in concurrent structures,AV-300,https://github.com/example/oss-security/issues/809,AV-300
+gh810,CI workflow executes payload via staged build artifact replacement,Artifact replaced mid-pipeline to include malicious code,AV-410,https://github.com/example/oss-security/issues/810,AV-410
+gh811,Malicious package scans system environment configuration files,Library inspects config files and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/811,AV-400
+gh812,Typosquatted package mimics logging framework,Fake package imitates logging system and leaks log data,AV-200,https://github.com/example/oss-security/issues/812,AV-200
+gh813,Dependency confusion via version constraint fallback mismatch,Constraint mismatch resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/813,AV-509
+gh814,Unicode obfuscation hides async task cancellation propagation manipulation,Hidden characters alter cancellation propagation behavior,AV-300,https://github.com/example/oss-security/issues/814,AV-300
+gh815,CI pipeline executes payload via staged configuration injection,Configuration injection introduces malicious execution path,AV-410,https://github.com/example/oss-security/issues/815,AV-410
+gh816,Library activates payload based on system resource contention,Malicious behavior triggers under high contention scenarios,AV-400,https://github.com/example/oss-security/issues/816,AV-400
+gh817,Typosquatting using prefix and suffix confusion combination,Package combines prefix and suffix tricks to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/817,AV-200
+gh818,Dependency confusion via container image layer mismatch,Layer mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/818,AV-509
+gh819,Unicode attack modifies lock-free data structure behavior,Hidden encoding alters synchronization in lock-free structures,AV-300,https://github.com/example/oss-security/issues/819,AV-300
+gh820,CI workflow executes payload via staged approval policy override,Policy override allows malicious execution during approval stage,AV-410,https://github.com/example/oss-security/issues/820,AV-410
+gh821,Package activates payload when system accessibility settings change,Malicious code triggers upon detecting accessibility configuration updates,AV-400,https://github.com/example/oss-security/issues/821,AV-400
+gh822,Typosquatted package mimics CSV parsing library,Fake package imitates CSV parser and exfiltrates parsed data,AV-200,https://github.com/example/oss-security/issues/822,AV-200
+gh823,Dependency confusion via registry geo-routing misconfiguration,Geo-routing resolves malicious dependency in certain regions,AV-509,https://github.com/example/oss-security/issues/823,AV-509
+gh824,Unicode obfuscation hides task batching threshold manipulation,Hidden characters alter batching thresholds in processing logic,AV-300,https://github.com/example/oss-security/issues/824,AV-300
+gh825,CI pipeline executes payload only during staged data migration,Malicious step triggers during migration workflows,AV-410,https://github.com/example/oss-security/issues/825,AV-410
+gh826,Library monitors system hardware configuration and exfiltrates data,Package inspects hardware specs and sends data externally,AV-400,https://github.com/example/oss-security/issues/826,AV-400
+gh827,Typosquatting using Unicode homoglyph and punctuation blending,Package combines homoglyphs and punctuation to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/827,AV-200
+gh828,Dependency confusion via inconsistent mirror prioritization,Mirror priority resolves malicious dependency over trusted one,AV-509,https://github.com/example/oss-security/issues/828,AV-509
+gh829,Unicode attack alters concurrent task cancellation ordering,Hidden encoding changes cancellation sequence of tasks,AV-300,https://github.com/example/oss-security/issues/829,AV-300
+gh830,CI workflow executes payload via staged build environment poisoning,Build environment altered to execute malicious code,AV-410,https://github.com/example/oss-security/issues/830,AV-410
+gh831,Malicious package scans local encryption key stores,Library inspects key storage and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/831,AV-400
+gh832,Typosquatted package mimics compression library,Fake package imitates compression tool and leaks data during processing,AV-200,https://github.com/example/oss-security/issues/832,AV-200
+gh833,Dependency confusion via inconsistent package alias mapping,Alias mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/833,AV-509
+gh834,Unicode obfuscation hides coroutine scheduling priority manipulation,Hidden characters alter scheduling priorities of coroutines,AV-300,https://github.com/example/oss-security/issues/834,AV-300
+gh835,CI pipeline executes payload via staged deployment approval override,Approval stage bypass introduces malicious execution,AV-410,https://github.com/example/oss-security/issues/835,AV-410
+gh836,Library activates payload based on system thermal throttling events,Malicious behavior triggers during thermal throttling conditions,AV-400,https://github.com/example/oss-security/issues/836,AV-400
+gh837,Typosquatting using phonetic similarity with symbol substitution,Package mimics trusted library using phonetic and symbol tricks,AV-200,https://github.com/example/oss-security/issues/837,AV-200
+gh838,Dependency confusion via container runtime configuration drift,Config drift resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/838,AV-509
+gh839,Unicode attack modifies concurrent data structure consistency checks,Hidden encoding alters consistency validation logic,AV-300,https://github.com/example/oss-security/issues/839,AV-300
+gh840,CI workflow executes payload via staged rollback approval bypass,Rollback approval bypass allows malicious execution,AV-410,https://github.com/example/oss-security/issues/840,AV-410
+gh841,Package activates payload when system backup settings change,Malicious code triggers upon detecting backup configuration updates,AV-400,https://github.com/example/oss-security/issues/841,AV-400
+gh842,Typosquatted package mimics image processing library,Fake package imitates image tool and exfiltrates processed data,AV-200,https://github.com/example/oss-security/issues/842,AV-200
+gh843,Dependency confusion via registry CDN cache poisoning,Poisoned CDN cache resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/843,AV-509
+gh844,Unicode obfuscation hides task dependency graph manipulation,Hidden characters alter dependency relationships in execution graph,AV-300,https://github.com/example/oss-security/issues/844,AV-300
+gh845,CI pipeline executes payload only during staged archive generation,Malicious step triggers during artifact archiving phase,AV-410,https://github.com/example/oss-security/issues/845,AV-410
+gh846,Library monitors system process tree and exfiltrates data,Package inspects process hierarchy and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/846,AV-400
+gh847,Typosquatting using Unicode homoglyph with spacing manipulation,Package alters spacing and characters to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/847,AV-200
+gh848,Dependency confusion via inconsistent artifact signing verification,Signing verification flaw resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/848,AV-509
+gh849,Unicode attack alters thread starvation detection logic,Hidden encoding changes starvation detection in threads,AV-300,https://github.com/example/oss-security/issues/849,AV-300
+gh850,CI workflow executes payload via staged environment variable poisoning,Environment variables altered to introduce malicious execution,AV-410,https://github.com/example/oss-security/issues/850,AV-410
+gh851,Malicious package scans local secure storage APIs,Library accesses secure storage and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/851,AV-400
+gh852,Typosquatted package mimics machine learning utility library,Fake package imitates ML tool and leaks processed model data,AV-200,https://github.com/example/oss-security/issues/852,AV-200
+gh853,Dependency confusion via registry alias resolution conflict,Alias conflict resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/853,AV-509
+gh854,Unicode obfuscation hides asynchronous pipeline chaining manipulation,Hidden characters alter chaining of async pipeline stages,AV-300,https://github.com/example/oss-security/issues/854,AV-300
+gh855,CI pipeline executes payload via staged artifact checksum bypass,Checksum validation bypass enables malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/855,AV-410
+gh856,Library activates payload based on system memory fragmentation,Malicious behavior triggers under fragmented memory conditions,AV-400,https://github.com/example/oss-security/issues/856,AV-400
+gh857,Typosquatting using phonetic similarity and truncation combination,Package mimics trusted name using sound-alike and shortened form,AV-200,https://github.com/example/oss-security/issues/857,AV-200
+gh858,Dependency confusion via multi-environment resolution inconsistency,Different environments resolve malicious dependency,AV-509,https://github.com/example/oss-security/issues/858,AV-509
+gh859,Unicode attack modifies lock contention handling behavior,Hidden encoding alters contention resolution logic,AV-300,https://github.com/example/oss-security/issues/859,AV-300
+gh860,CI workflow executes payload via staged deployment manifest override,Deployment manifest manipulated to execute malicious code,AV-410,https://github.com/example/oss-security/issues/860,AV-410
+gh861,Package activates payload when system clipboard history is accessed,Malicious code triggers upon clipboard history retrieval,AV-400,https://github.com/example/oss-security/issues/861,AV-400
+gh862,Typosquatted package mimics YAML parsing library,Fake package imitates YAML parser and exfiltrates configuration data,AV-200,https://github.com/example/oss-security/issues/862,AV-200
+gh863,Dependency confusion via registry redirect manipulation,Redirect rules resolve malicious dependency endpoint,AV-509,https://github.com/example/oss-security/issues/863,AV-509
+gh864,Unicode obfuscation hides async iterator state manipulation,Hidden characters alter iteration behavior in async streams,AV-300,https://github.com/example/oss-security/issues/864,AV-300
+gh865,CI pipeline executes payload only during staged documentation generation,Malicious step triggers during doc build workflows,AV-410,https://github.com/example/oss-security/issues/865,AV-410
+gh866,Library monitors system service status and exfiltrates data,Package inspects running services and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/866,AV-400
+gh867,Typosquatting using multi-character homoglyph clusters,Package clusters homoglyphs to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/867,AV-200
+gh868,Dependency confusion via registry proxy misrouting,Proxy routes dependency requests to malicious source,AV-509,https://github.com/example/oss-security/issues/868,AV-509
+gh869,Unicode attack alters thread lifecycle management logic,Hidden encoding changes creation and termination behavior of threads,AV-300,https://github.com/example/oss-security/issues/869,AV-300
+gh870,CI workflow executes payload via staged artifact repository poisoning,Repository poisoning leads to malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/870,AV-410
+gh871,Malicious package scans system network configuration,Library inspects network settings and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/871,AV-400
+gh872,Typosquatted package mimics CSV writer utility,Fake package imitates writer tool and leaks exported data,AV-200,https://github.com/example/oss-security/issues/872,AV-200
+gh873,Dependency confusion via inconsistent dependency pinning enforcement,Pinning failure resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/873,AV-509
+gh874,Unicode obfuscation hides async semaphore handling manipulation,Hidden characters alter semaphore logic in async operations,AV-300,https://github.com/example/oss-security/issues/874,AV-300
+gh875,CI pipeline executes payload via staged container build override,Container build process altered to include malicious code,AV-410,https://github.com/example/oss-security/issues/875,AV-410
+gh876,Library activates payload based on system disk fragmentation,Malicious behavior triggers under fragmented disk conditions,AV-400,https://github.com/example/oss-security/issues/876,AV-400
+gh877,Typosquatting using phonetic similarity with prefix extension,Package extends trusted name with phonetic trick to deceive users,AV-200,https://github.com/example/oss-security/issues/877,AV-200
+gh878,Dependency confusion via cross-registry namespace collision,Namespace collision resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/878,AV-509
+gh879,Unicode attack modifies asynchronous event propagation timing,Hidden encoding alters timing of event propagation,AV-300,https://github.com/example/oss-security/issues/879,AV-300
+gh880,CI workflow executes payload via staged release configuration override,Release configuration manipulated to execute malicious code,AV-410,https://github.com/example/oss-security/issues/880,AV-410
+gh881,Package activates payload when system screen saver starts,Malicious code triggers upon detecting screen saver activation,AV-400,https://github.com/example/oss-security/issues/881,AV-400
+gh882,Typosquatted package mimics Markdown processing library,Fake package imitates Markdown tool and exfiltrates rendered content,AV-200,https://github.com/example/oss-security/issues/882,AV-200
+gh883,Dependency confusion via registry DNS spoofing attack,DNS spoofing redirects dependency resolution to malicious source,AV-509,https://github.com/example/oss-security/issues/883,AV-509
+gh884,Unicode obfuscation hides coroutine state transition manipulation,Hidden characters alter coroutine execution states,AV-300,https://github.com/example/oss-security/issues/884,AV-300
+gh885,CI pipeline executes payload only during staged linting operations,Malicious step triggers during linting phase,AV-410,https://github.com/example/oss-security/issues/885,AV-410
+gh886,Library monitors system scheduled tasks and exfiltrates data,Package inspects scheduled jobs and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/886,AV-400
+gh887,Typosquatting using visually similar abbreviation patterns,Package uses abbreviated forms with homoglyphs to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/887,AV-200
+gh888,Dependency confusion via inconsistent registry failover routing,Failover routes dependency resolution to malicious registry,AV-509,https://github.com/example/oss-security/issues/888,AV-509
+gh889,Unicode attack alters thread scheduling quantum logic,Hidden encoding changes execution time slices for threads,AV-300,https://github.com/example/oss-security/issues/889,AV-300
+gh890,CI workflow executes payload via staged secret injection override,Secret injection manipulated to trigger malicious execution,AV-410,https://github.com/example/oss-security/issues/890,AV-410
+gh891,Malicious package scans local system service registry,Library inspects service registry and exfiltrates configuration data,AV-400,https://github.com/example/oss-security/issues/891,AV-400
+gh892,Typosquatted package mimics HTML rendering library,Fake package imitates rendering tool and leaks processed content,AV-200,https://github.com/example/oss-security/issues/892,AV-200
+gh893,Dependency confusion via inconsistent version precedence rules,Precedence misinterpretation resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/893,AV-509
+gh894,Unicode obfuscation hides async mutex handling manipulation,Hidden characters alter mutex behavior in async systems,AV-300,https://github.com/example/oss-security/issues/894,AV-300
+gh895,CI pipeline executes payload via staged dependency injection override,Dependency injection manipulated to execute malicious code,AV-410,https://github.com/example/oss-security/issues/895,AV-410
+gh896,Library activates payload based on system cache eviction patterns,Malicious behavior triggers during specific cache eviction events,AV-400,https://github.com/example/oss-security/issues/896,AV-400
+gh897,Typosquatting using combined symbol substitution and truncation,Package mixes symbol replacement and truncation to deceive users,AV-200,https://github.com/example/oss-security/issues/897,AV-200
+gh898,Dependency confusion via container orchestration misconfiguration,Orchestration flaw resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/898,AV-509
+gh899,Unicode attack modifies asynchronous task prioritization,Hidden encoding alters priority of async task execution,AV-300,https://github.com/example/oss-security/issues/899,AV-300
+gh900,CI workflow executes payload via staged artifact validation override,Validation override allows malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/900,AV-410
+gh901,Package activates payload when system power mode changes,Malicious code triggers upon detecting power saver or performance mode switch,AV-400,https://github.com/example/oss-security/issues/901,AV-400
+gh902,Typosquatted package mimics PDF processing library,Fake package imitates PDF tool and exfiltrates document data,AV-200,https://github.com/example/oss-security/issues/902,AV-200
+gh903,Dependency confusion via registry fallback chain poisoning,Fallback chain manipulated to resolve malicious dependency,AV-509,https://github.com/example/oss-security/issues/903,AV-509
+gh904,Unicode obfuscation hides async queue backpressure manipulation,Hidden characters alter backpressure handling in queues,AV-300,https://github.com/example/oss-security/issues/904,AV-300
+gh905,CI pipeline executes payload only during staged schema validation,Malicious step triggers during schema validation phase,AV-410,https://github.com/example/oss-security/issues/905,AV-410
+gh906,Library monitors system configuration registry and exfiltrates data,Package inspects configuration registry and sends data externally,AV-400,https://github.com/example/oss-security/issues/906,AV-400
+gh907,Typosquatting using homoglyph clusters with case variation,Package combines homoglyphs and case tricks to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/907,AV-200
+gh908,Dependency confusion via inconsistent artifact mirroring strategy,Mirroring inconsistency resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/908,AV-509
+gh909,Unicode attack alters lock-free queue consistency guarantees,Hidden encoding changes correctness of lock-free structures,AV-300,https://github.com/example/oss-security/issues/909,AV-300
+gh910,CI workflow executes payload via staged artifact indexing manipulation,Indexing stage altered to include malicious artifact,AV-410,https://github.com/example/oss-security/issues/910,AV-410
+gh911,Malicious package scans system authentication caches,Library inspects auth cache and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/911,AV-400
+gh912,Typosquatted package mimics spreadsheet processing library,Fake package imitates spreadsheet tool and leaks processed data,AV-200,https://github.com/example/oss-security/issues/912,AV-200
+gh913,Dependency confusion via inconsistent dependency graph pruning,Pruning flaw resolves malicious dependency inclusion,AV-509,https://github.com/example/oss-security/issues/913,AV-509
+gh914,Unicode obfuscation hides coroutine scheduling fairness manipulation,Hidden characters alter fairness in coroutine scheduling,AV-300,https://github.com/example/oss-security/issues/914,AV-300
+gh915,CI pipeline executes payload via staged infrastructure policy override,Policy override introduces malicious execution path,AV-410,https://github.com/example/oss-security/issues/915,AV-410
+gh916,Library activates payload based on system interrupt jitter,Malicious behavior triggers under irregular interrupt timing,AV-400,https://github.com/example/oss-security/issues/916,AV-400
+gh917,Typosquatting using multi-language naming similarity,Package mimics trusted library across different language ecosystems,AV-200,https://github.com/example/oss-security/issues/917,AV-200
+gh918,Dependency confusion via container registry replication lag,Replication delay resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/918,AV-509
+gh919,Unicode attack modifies task dependency resolution logic,Hidden encoding alters resolution of dependent tasks,AV-300,https://github.com/example/oss-security/issues/919,AV-300
+gh920,CI workflow executes payload via staged deployment approval injection,Approval stage manipulated to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/920,AV-410
+gh921,Package activates payload when system Bluetooth state changes,Malicious code triggers upon detecting Bluetooth enable or disable events,AV-400,https://github.com/example/oss-security/issues/921,AV-400
+gh922,Typosquatted package mimics Excel processing library,Fake package imitates spreadsheet tool and exfiltrates workbook data,AV-200,https://github.com/example/oss-security/issues/922,AV-200
+gh923,Dependency confusion via registry failover misconfiguration,Failover routing resolves malicious dependency instead of trusted source,AV-509,https://github.com/example/oss-security/issues/923,AV-509
+gh924,Unicode obfuscation hides async task throttling manipulation,Hidden characters alter throttling behavior of async tasks,AV-300,https://github.com/example/oss-security/issues/924,AV-300
+gh925,CI pipeline executes payload only during staged test artifact packaging,Malicious step triggers during artifact packaging phase,AV-410,https://github.com/example/oss-security/issues/925,AV-410
+gh926,Library monitors system login events and exfiltrates data,Package tracks user login activity and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/926,AV-400
+gh927,Typosquatting using homoglyph substitution with delimiter tricks,Package uses homoglyphs and delimiters to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/927,AV-200
+gh928,Dependency confusion via inconsistent artifact version propagation,Propagation mismatch resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/928,AV-509
+gh929,Unicode attack alters concurrent pipeline execution ordering,Hidden encoding changes execution order in pipelines,AV-300,https://github.com/example/oss-security/issues/929,AV-300
+gh930,CI workflow executes payload via staged secret rotation manipulation,Secret rotation process manipulated to execute malicious code,AV-410,https://github.com/example/oss-security/issues/930,AV-410
+gh931,Malicious package scans system user account configurations,Library inspects user accounts and exfiltrates data externally,AV-400,https://github.com/example/oss-security/issues/931,AV-400
+gh932,Typosquatted package mimics archive extraction library,Fake package imitates archive tool and leaks extracted content,AV-200,https://github.com/example/oss-security/issues/932,AV-200
+gh933,Dependency confusion via registry namespace shadowing,Namespace shadowing resolves malicious dependency over trusted one,AV-509,https://github.com/example/oss-security/issues/933,AV-509
+gh934,Unicode obfuscation hides coroutine execution order manipulation,Hidden characters alter execution sequence of coroutines,AV-300,https://github.com/example/oss-security/issues/934,AV-300
+gh935,CI pipeline executes payload via staged artifact upload override,Upload step manipulated to include malicious artifact,AV-410,https://github.com/example/oss-security/issues/935,AV-410
+gh936,Library activates payload based on system thermal fluctuation patterns,Malicious behavior triggers under fluctuating temperature conditions,AV-400,https://github.com/example/oss-security/issues/936,AV-400
+gh937,Typosquatting using phonetic similarity with multi-character insertion,Package inserts characters to mimic trusted library phonetically,AV-200,https://github.com/example/oss-security/issues/937,AV-200
+gh938,Dependency confusion via multi-region registry inconsistency,Region mismatch resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/938,AV-509
+gh939,Unicode attack modifies concurrent resource allocation fairness,Hidden encoding alters fairness in resource allocation,AV-300,https://github.com/example/oss-security/issues/939,AV-300
+gh940,CI workflow executes payload via staged rollback trigger manipulation,Rollback trigger altered to execute malicious code,AV-410,https://github.com/example/oss-security/issues/940,AV-410
+gh941,Package activates payload when system airplane mode toggles,Malicious code triggers upon detecting airplane mode enable or disable,AV-400,https://github.com/example/oss-security/issues/941,AV-400
+gh942,Typosquatted package mimics PDF rendering library,Fake package imitates rendering tool and exfiltrates document content,AV-200,https://github.com/example/oss-security/issues/942,AV-200
+gh943,Dependency confusion via registry endpoint failback manipulation,Failback routing resolves malicious dependency source,AV-509,https://github.com/example/oss-security/issues/943,AV-509
+gh944,Unicode obfuscation hides async scheduler fairness manipulation,Hidden characters alter fairness of async task scheduling,AV-300,https://github.com/example/oss-security/issues/944,AV-300
+gh945,CI pipeline executes payload only during staged container scanning,Malicious step triggers during container security scan phase,AV-410,https://github.com/example/oss-security/issues/945,AV-410
+gh946,Library monitors system boot configuration and exfiltrates data,Package inspects boot settings and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/946,AV-400
+gh947,Typosquatting using homoglyph substitution with suffix extension,Package extends trusted name with deceptive suffix and homoglyphs,AV-200,https://github.com/example/oss-security/issues/947,AV-200
+gh948,Dependency confusion via inconsistent registry namespace resolution,Namespace resolution flaw resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/948,AV-509
+gh949,Unicode attack alters concurrent buffer management logic,Hidden encoding changes buffer allocation and synchronization,AV-300,https://github.com/example/oss-security/issues/949,AV-300
+gh950,CI workflow executes payload via staged artifact signing bypass,Signing validation bypass allows malicious artifact execution,AV-410,https://github.com/example/oss-security/issues/950,AV-410
+gh951,Malicious package scans system privilege escalation logs,Library inspects privilege logs and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/951,AV-400
+gh952,Typosquatted package mimics encryption key management library,Fake package imitates key manager and leaks encryption keys,AV-200,https://github.com/example/oss-security/issues/952,AV-200
+gh953,Dependency confusion via container image tag shadowing,Tag shadowing resolves malicious container dependency,AV-509,https://github.com/example/oss-security/issues/953,AV-509
+gh954,Unicode obfuscation hides coroutine synchronization barrier manipulation,Hidden characters alter synchronization barriers in coroutines,AV-300,https://github.com/example/oss-security/issues/954,AV-300
+gh955,CI pipeline executes payload via staged build cache poisoning,Build cache poisoned to introduce malicious artifacts,AV-410,https://github.com/example/oss-security/issues/955,AV-410
+gh956,Library activates payload based on system load average threshold,Malicious behavior triggers under high load conditions,AV-400,https://github.com/example/oss-security/issues/956,AV-400
+gh957,Typosquatting using phonetic similarity with delimiter injection,Package inserts delimiters to mimic trusted library naming,AV-200,https://github.com/example/oss-security/issues/957,AV-200
+gh958,Dependency confusion via cross-region registry replication conflict,Replication conflict resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/958,AV-509
+gh959,Unicode attack modifies concurrent task dependency ordering,Hidden encoding alters ordering of dependent tasks,AV-300,https://github.com/example/oss-security/issues/959,AV-300
+gh960,CI workflow executes payload via staged deployment script override,Deployment script manipulated to execute malicious commands,AV-410,https://github.com/example/oss-security/issues/960,AV-410
+gh961,Package activates payload when system VPN connection changes,Malicious code triggers upon detecting VPN connect or disconnect events,AV-400,https://github.com/example/oss-security/issues/961,AV-400
+gh962,Typosquatted package mimics graph processing library,Fake package imitates graph tool and exfiltrates processed data,AV-200,https://github.com/example/oss-security/issues/962,AV-200
+gh963,Dependency confusion via registry authentication token leakage,Leaked token allows malicious registry access and dependency resolution,AV-509,https://github.com/example/oss-security/issues/963,AV-509
+gh964,Unicode obfuscation hides async pipeline backpressure manipulation,Hidden characters alter backpressure handling in async pipelines,AV-300,https://github.com/example/oss-security/issues/964,AV-300
+gh965,CI pipeline executes payload only during staged performance benchmarking,Malicious step triggers during benchmark execution phase,AV-410,https://github.com/example/oss-security/issues/965,AV-410
+gh966,Library monitors system daemon processes and exfiltrates data,Package inspects background services and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/966,AV-400
+gh967,Typosquatting using homoglyph substitution with prefix duplication,Package duplicates prefix characters and uses homoglyphs to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/967,AV-200
+gh968,Dependency confusion via inconsistent dependency mirror resolution,Mirror inconsistency resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/968,AV-509
+gh969,Unicode attack alters concurrent scheduler load balancing logic,Hidden encoding changes load balancing in concurrent execution,AV-300,https://github.com/example/oss-security/issues/969,AV-300
+gh970,CI workflow executes payload via staged infrastructure state override,Infrastructure state manipulation introduces malicious execution,AV-410,https://github.com/example/oss-security/issues/970,AV-410
+gh971,Malicious package scans system container runtime settings,Library inspects container runtime configs and exfiltrates data,AV-400,https://github.com/example/oss-security/issues/971,AV-400
+gh972,Typosquatted package mimics network routing library,Fake package imitates routing tool and leaks traffic data,AV-200,https://github.com/example/oss-security/issues/972,AV-200
+gh973,Dependency confusion via registry namespace collision with priority override,Priority override resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/973,AV-509
+gh974,Unicode obfuscation hides coroutine execution deadline manipulation,Hidden characters alter execution deadlines in async tasks,AV-300,https://github.com/example/oss-security/issues/974,AV-300
+gh975,CI pipeline executes payload via staged artifact replication poisoning,Replication stage introduces malicious artifact,AV-410,https://github.com/example/oss-security/issues/975,AV-410
+gh976,Library activates payload based on system entropy levels,Malicious behavior triggers under specific entropy conditions,AV-400,https://github.com/example/oss-security/issues/976,AV-400
+gh977,Typosquatting using phonetic similarity with character swapping,Package swaps characters to mimic trusted library phonetically,AV-200,https://github.com/example/oss-security/issues/977,AV-200
+gh978,Dependency confusion via cross-environment configuration drift,Configuration drift resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/978,AV-509
+gh979,Unicode attack modifies concurrent execution fairness policies,Hidden encoding alters fairness policies in concurrent scheduling,AV-300,https://github.com/example/oss-security/issues/979,AV-300
+gh980,CI workflow executes payload via staged deployment rollback injection,Rollback process manipulated to execute malicious commands,AV-410,https://github.com/example/oss-security/issues/980,AV-410
+gh981,Package activates payload when system WiFi network changes,Malicious code triggers upon detecting connection to a new WiFi network,AV-400,https://github.com/example/oss-security/issues/981,AV-400
+gh982,Typosquatted package mimics image compression library,Fake package imitates compression tool and exfiltrates processed images,AV-200,https://github.com/example/oss-security/issues/982,AV-200
+gh983,Dependency confusion via registry token expiration fallback,Expired token triggers fallback to malicious registry source,AV-509,https://github.com/example/oss-security/issues/983,AV-509
+gh984,Unicode obfuscation hides async retry backoff manipulation,Hidden characters alter retry intervals in async systems,AV-300,https://github.com/example/oss-security/issues/984,AV-300
+gh985,CI pipeline executes payload only during staged system profiling,Malicious step triggers during profiling execution phase,AV-410,https://github.com/example/oss-security/issues/985,AV-410
+gh986,Library monitors system kernel module events and exfiltrates data,Package inspects kernel activity and sends metadata externally,AV-400,https://github.com/example/oss-security/issues/986,AV-400
+gh987,Typosquatting using homoglyph substitution with infix insertion,Package inserts characters within name to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/987,AV-200
+gh988,Dependency confusion via multi-registry synchronization lag,Sync delay resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/988,AV-509
+gh989,Unicode attack alters concurrent execution backpressure control,Hidden encoding changes backpressure mechanisms,AV-300,https://github.com/example/oss-security/issues/989,AV-300
+gh990,CI workflow executes payload via staged approval gate poisoning,Approval gate manipulated to allow malicious execution,AV-410,https://github.com/example/oss-security/issues/990,AV-410
+gh991,Malicious package scans system API endpoint configurations,Library inspects API configs and exfiltrates sensitive data,AV-400,https://github.com/example/oss-security/issues/991,AV-400
+gh992,Typosquatted package mimics binary serialization library,Fake package imitates serializer and leaks encoded data,AV-200,https://github.com/example/oss-security/issues/992,AV-200
+gh993,Dependency confusion via container image digest spoofing,Spoofed digest resolves malicious container dependency,AV-509,https://github.com/example/oss-security/issues/993,AV-509
+gh994,Unicode obfuscation hides coroutine timeout propagation manipulation,Hidden characters alter timeout propagation logic,AV-300,https://github.com/example/oss-security/issues/994,AV-300
+gh995,CI pipeline executes payload via staged dependency verification bypass,Verification bypass allows malicious dependency execution,AV-410,https://github.com/example/oss-security/issues/995,AV-410
+gh996,Library activates payload based on system interrupt coalescing patterns,Malicious behavior triggers under specific interrupt aggregation patterns,AV-400,https://github.com/example/oss-security/issues/996,AV-400
+gh997,Typosquatting using phonetic similarity with suffix duplication,Package duplicates suffix characters to mimic trusted library,AV-200,https://github.com/example/oss-security/issues/997,AV-200
+gh998,Dependency confusion via registry policy misconfiguration,Policy misconfiguration resolves malicious dependency version,AV-509,https://github.com/example/oss-security/issues/998,AV-509
+gh999,Unicode attack modifies concurrent task preemption logic,Hidden encoding alters preemption behavior in scheduling,AV-300,https://github.com/example/oss-security/issues/999,AV-300
+gh1000,CI workflow executes payload via staged infrastructure teardown injection,Teardown phase manipulated to execute malicious commands,AV-410,https://github.com/example/oss-security/issues/1000,AV-410
+gh1001,Package activates payload when system DNS settings change,Malicious code triggers upon detecting DNS configuration updates,AV-400,https://github.com/example/oss-security/issues/1001,AV-400
+gh1002,Typosquatted package mimics audio processing library,Fake package imitates audio tool and exfiltrates processed sound data,AV-200,https://github.com/example/oss-security/issues/1002,AV-200
+gh1003,Dependency confusion via registry certificate rotation failure,Expired certificate fallback resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/1003,AV-509
+gh1004,Unicode obfuscation hides async job queue starvation manipulation,Hidden characters alter job queue fairness and scheduling,AV-300,https://github.com/example/oss-security/issues/1004,AV-300
+gh1005,CI pipeline executes payload only during staged log aggregation,Malicious step triggers during centralized logging phase,AV-410,https://github.com/example/oss-security/issues/1005,AV-410
+gh1006,Library monitors system kernel panic events and exfiltrates data,Package inspects crash-level kernel logs and sends data externally,AV-400,https://github.com/example/oss-security/issues/1006,AV-400
+gh1007,Typosquatting using homoglyph substitution with mid-string injection,Package injects deceptive characters within trusted name,AV-200,https://github.com/example/oss-security/issues/1007,AV-200
+gh1008,Dependency confusion via inconsistent multi-registry resolution order,Resolution order mismatch resolves malicious dependency,AV-509,https://github.com/example/oss-security/issues/1008,AV-509
+gh1009,Unicode attack alters concurrent execution starvation handling,Hidden encoding changes starvation mitigation logic,AV-300,https://github.com/example/oss-security/issues/1009,AV-300
+gh1010,CI workflow executes payload via staged audit log suppression,Audit logs suppressed to hide malicious execution,AV-410,https://github.com/example/oss-security/issues/1010,AV-410
+gh1011,Malicious package scans system container image metadata,Library inspects image layers and exfiltrates configuration data,AV-400,https://github.com/example/oss-security/issues/1011,AV-400
+gh1012,Typosquatted package mimics binary diff utility,Fake package imitates diff tool and leaks compared binary data,AV-200,https://github.com/example/oss-security/issues/1012,AV-200
+gh1013,Dependency confusion via registry authentication fallback misrouting,Authentication fallback resolves malicious dependency source,AV-509,https://github.com/example/oss-security/issues/1013,AV-509
+gh1014,Unicode obfuscation hides coroutine backpressure control manipulation,Hidden characters alter coroutine flow control behavior,AV-300,https://github.com/example/oss-security/issues/1014,AV-300
+gh1015,CI pipeline executes payload via staged artifact retention override,Retention policy manipulated to keep malicious artifacts,AV-410,https://github.com/example/oss-security/issues/1015,AV-410
+gh1016,Library activates payload based on system scheduler latency spikes,Malicious behavior triggers under abnormal scheduling delays,AV-400,https://github.com/example/oss-security/issues/1016,AV-400
+gh1017,Typosquatting using phonetic similarity with special character injection,Package inserts symbols to mimic trusted library name,AV-200,https://github.com/example/oss-security/issues/1017,AV-200
+gh1018,Dependency confusion via container registry credential leakage,Leaked credentials allow malicious dependency resolution,AV-509,https://github.com/example/oss-security/issues/1018,AV-509
+gh1019,Unicode attack modifies concurrent workload balancing strategy,Hidden encoding alters load distribution across workers,AV-300,https://github.com/example/oss-security/issues/1019,AV-300
+gh1020,CI workflow executes payload via staged environment teardown override,Teardown phase manipulated to execute malicious commands,AV-410,https://github.com/example/oss-security/issues/1020,AV-410
