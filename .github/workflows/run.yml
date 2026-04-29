@@ -1,1 +1,27 @@
+name: Run Baseline Models
 
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Baseline Script
+      run: |
+        python src/baseline_models.py
