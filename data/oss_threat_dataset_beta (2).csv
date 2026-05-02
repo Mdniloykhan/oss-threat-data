@@ -1,5 +1,4 @@
 id,title,description,label,source,predicted_label
-gh200,CI workflow executes hidden script from encoded variable,Encoded payload stored in variable is decoded and executed in pipeline,AV-410,https://securitylab.github.com/advisories/,AV-410
 gh201,Package installs normally but activates on specific command,Malicious logic triggers only when a specific command is executed by user,AV-400,https://github.com/advisories/GHSA-69r6-7h4f-9p7q,AV-400
 gh202,Typosquatted package with delayed malicious update,Initial version is clean but later update introduces malicious code,AV-200,https://github.com/advisories/GHSA-p5wr-vp8g-q5p4,AV-200
 gh203,Dependency confusion via misconfigured fallback registry,Private registry failure causes fallback to malicious public package,AV-509,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-24105,AV-509
