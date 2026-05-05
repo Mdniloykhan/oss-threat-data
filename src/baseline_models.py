@@ -16,7 +16,7 @@ import os
 # ==============================
 # 1. Load Dataset
 # ==============================
-df = pd.read_csv("data/oss_threat_dataset_beta")
+df = pd.read_csv("data/oss_threat_dataset_beta.csv")
 
 # Combine title + description
 df["text"] = df["title"] + " " + df["description"]
