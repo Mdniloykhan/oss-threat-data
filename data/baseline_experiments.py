@@ -41,38 +41,26 @@ warnings.filterwarnings('ignore')
 print("All imports successful")
 
 # ============================================================
-# SECTION 1 — Load All Dataset CSV Files
+# ============================================================
+# SECTION 1 — LOAD DATASET
 # ============================================================
 
-# Load all CSV files from your dataset
-# Adjust the path to where you uploaded your files on Colab
-csv_files = glob.glob('/content/*.csv')  # Change path if needed
-print(f"Found {len(csv_files)} CSV files")
+DATASET_PATH = 'data/oss_threat_dataset_beta.csv'
 
-dfs = []
-for f in csv_files:
-    try:
-        df = pd.read_csv(f)
-        if 'label' in df.columns and 'description' in df.columns:
-            dfs.append(df)
-            print(f"  Loaded {f}: {len(df)} rows")
-    except Exception as e:
-        print(f"  Error loading {f}: {e}")
+print(f"\nLoading dataset from: {DATASET_PATH}")
+full_df = pd.read_csv(DATASET_PATH)
+print(f"Loaded {len(full_df)} entries")
 
-# Combine all files
-full_df = pd.concat(dfs, ignore_index=True)
-print(f"\nTotal entries loaded: {len(full_df)}")
-
-# Keep only valid AV labels
-valid_labels = ['AV-200', 'AV-300', 'AV-400', 'AV-410', 'AV-509']
+# Clean
 full_df = full_df[full_df['label'].isin(valid_labels)].copy()
 full_df = full_df.dropna(subset=['description', 'label'])
-full_df = full_df.drop_duplicates(subset=['id']) if 'id' in full_df.columns else full_df.drop_duplicates()
 
-print(f"Clean entries after filtering: {len(full_df)}")
-print("\nLabel distribution:")
-print(full_df['label'].value_counts())
+if 'id' in full_df.columns:
+    before = len(full_df)
+    full_df = full_df.drop_duplicates(subset=['id'])
+    print(f"Removed {before - len(full_df)} duplicate IDs")
 
+print(f"Clean entries: {len(full_df)}")
 # ============================================================
 # SECTION 2 — Prepare Features
 # ============================================================
