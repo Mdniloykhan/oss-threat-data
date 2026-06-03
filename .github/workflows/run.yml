@@ -20,7 +20,7 @@ jobs:
         run: pip install pandas scikit-learn matplotlib seaborn requests tqdm
 
       - name: Run baseline experiments
-        run: python scripts/baseline_final.py
+        run: python scripts/baseline_experiments.py
 
       - name: Upload results
         uses: actions/upload-artifact@v4
