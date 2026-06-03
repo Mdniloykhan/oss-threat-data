@@ -20,4 +20,4 @@ detection of open source software supply chain threats.
 
 ## Reproduce
 pip install -r requirements.txt
-python scripts/baseline_final.py
+python scripts/baseline_experiments.py
