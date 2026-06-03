@@ -28,4 +28,4 @@ jobs:
         run: python scripts/evaluate.py
 
       - name: Run baseline experiments
-        run: python scripts/baseline_final.py
+        run: python scripts/baseline_experiments.py
