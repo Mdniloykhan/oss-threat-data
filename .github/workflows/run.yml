@@ -1,4 +1,3 @@
-cat > .github/workflows/run.yml << 'EOF'
 name: Run Baseline Models
 on:
   push:
@@ -29,5 +28,3 @@ jobs:
           path: |
             confusion_matrix_baseline.png
             method_comparison.png
-            opensource_llm_results.csv
-EOF

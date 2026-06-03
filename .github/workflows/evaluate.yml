@@ -24,8 +24,5 @@ jobs:
       - name: Install dependencies
         run: pip install pandas scikit-learn matplotlib seaborn requests tqdm
 
-      - name: Run dataset evaluation
-        run: python scripts/evaluate.py
-
       - name: Run baseline experiments
         run: python scripts/baseline_experiments.py
