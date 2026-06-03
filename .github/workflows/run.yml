@@ -18,13 +18,19 @@ jobs:
       - name: Install dependencies
         run: pip install pandas scikit-learn matplotlib seaborn requests tqdm
 
+      - name: Create results directory
+        run: mkdir -p results
+
       - name: Run baseline experiments
         run: python scripts/baseline_experiments.py
+
+      - name: Move output files to results
+        run: |
+          mv confusion_matrix_baseline.png results/ 2>/dev/null || true
+          mv method_comparison.png results/ 2>/dev/null || true
 
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
           name: experiment-results
-          path: |
-            confusion_matrix_baseline.png
-            method_comparison.png
+          path: results/
