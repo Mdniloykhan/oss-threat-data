@@ -1,5 +1,4 @@
 name: Evaluate Dataset
-
 on:
   push:
     paths:
@@ -13,21 +12,20 @@ on:
 jobs:
   evaluate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 📥 Checkout code
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: 🐍 Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 📦 Install dependencies
-        run: pip install pandas scikit-learn
+      - name: Install dependencies
+        run: pip install pandas scikit-learn matplotlib seaborn requests tqdm
 
-      - name: 🧪 Run basic evaluation
+      - name: Run dataset evaluation
         run: python scripts/evaluate.py
 
-      - name: 🔍 Run prediction evaluation (if column exists)
-        run: python scripts/evaluate_with_predictions.py
+      - name: Run baseline experiments
+        run: python scripts/baseline_final.py
