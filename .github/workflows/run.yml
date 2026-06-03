@@ -1,5 +1,5 @@
+cat > .github/workflows/run.yml << 'EOF'
 name: Run Baseline Models
-
 on:
   push:
     branches: ["main"]
@@ -7,27 +7,27 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install pandas scikit-learn matplotlib seaborn requests tqdm
 
-    - name: Run script
-      run: |
-        python src/baseline_models.py
+      - name: Run baseline experiments
+        run: python scripts/baseline_final.py
 
-    # ✅ ADD THIS (IMPORTANT)
-    - name: Upload Results
-      uses: actions/upload-artifact@v3
-      with:
-        name: results
-        path: results/
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: experiment-results
+          path: |
+            confusion_matrix_baseline.png
+            method_comparison.png
+            opensource_llm_results.csv
+EOF
