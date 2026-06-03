@@ -1,36 +1,23 @@
-# 🔒 OSS Threat Detection Toolkit
+# OSS Threat Detection
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Accuracy](https://img.shields.io/badge/accuracy-97%25-yellowgreen)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15270679.svg)](https://zenodo.org/records/15276249)
+Dataset and experiments for taxonomy-aligned LLM-based 
+detection of open source software supply chain threats.
 
-This project uses machine learning to detect and classify **supply chain threats** in open source software (OSS). It includes a dataset, Python scripts, and automated evaluation.
+## Dataset
+999 verified OSS supply chain incidents across 5 attack categories:
+- AV-200: Typosquatting
+- AV-300: Trojan Source  
+- AV-400: Malicious Builds
+- AV-410: Pipeline Poisoning
+- AV-509: Dependency Confusion
 
----
+## Results
+| Method | Accuracy |
+|---|---|
+| TF-IDF + Logistic Regression | 82.3% |
+| Mistral 7B (zero-shot) | 65.7% |
+| GPT-4 Taxonomy-Aligned (Ours) | 97.0% |
 
-## 📁 What's in this project?
-
-- `data/oss_threat_dataset.csv` → labeled threat data
-- `scripts/evaluate.py` → shows label stats
-- `scripts/evaluate_with_predictions.py` → checks prediction accuracy
-- `.github/workflows/evaluate.yml` → runs scripts automatically on every change
-- `evaluation_report.md` → saved report from model
-- `README.md` → this file
-
----
-
-## 📊 AV Label Distribution
-
-![Pie Chart](./data/oss_threat_label_distribution_pie.png)  
-
-![Bar Chart](./data/oss_threat_label_distribution_bar.png)
-
-
-
-## 🚀 How to Use
-
-### Step 1: Clone this project
-
-```bash
-git clone https://github.com/Mdniloykhan/oss-threat-data.git
-cd oss-threat-data
+## Reproduce
+pip install -r requirements.txt
+python scripts/baseline_final.py
