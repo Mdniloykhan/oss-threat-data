@@ -97,9 +97,3 @@ If you use this dataset or code please cite:
 ```
 
 ---
-
-## 👤 Author
-
-**Md. Robiul Islam Niloy**
-Department of Computer Science and Engineering
-BRAC University, Dhaka, Bangladesh
