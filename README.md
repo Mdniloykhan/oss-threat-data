@@ -83,17 +83,6 @@ python scripts/opensource_llm_experiments.py
 
 ---
 
-## 📄 Citation
 
-If you use this dataset or code please cite:
-
-```bibtex
-@inproceedings{niloy2027oss,
-  title={Taxonomy-Aligned LLM Framework for OSS Supply Chain Threat Detection},
-  author={XXXXX},
-  booktitle={Proceedings of the ACM Asia Conference on Computer and Communications Security (AsiaCCS)},
-  year={2027}
-}
-```
 
 ---
