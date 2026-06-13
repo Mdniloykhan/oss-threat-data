@@ -90,7 +90,7 @@ If you use this dataset or code please cite:
 ```bibtex
 @inproceedings{niloy2027oss,
   title={Taxonomy-Aligned LLM Framework for OSS Supply Chain Threat Detection},
-  author={Md. Robiul Islam Niloy},
+  author={XXXXX},
   booktitle={Proceedings of the ACM Asia Conference on Computer and Communications Security (AsiaCCS)},
   year={2027}
 }
