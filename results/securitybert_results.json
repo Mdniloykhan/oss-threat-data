@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-07-15T00:55:29.400268",
+  "model": "jackaduma/SecRoBERTa",
+  "accuracy": 0.775,
+  "f1_macro": 0.7779472060818312,
+  "test_size": 200,
+  "train_size": 799,
+  "num_epochs": 5,
+  "hyperparameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "max_length": 256,
+    "weight_decay": 0.01
+  }
+}
