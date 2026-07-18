@@ -24,12 +24,12 @@ oss-threat-data/
 ├── scripts/
 │   ├── baseline_experiments.py            # TF-IDF and ML baseline classifiers
 │   ├── opensource_llm_experiments.py      # Open source LLM experiments (Ollama)
-│   ├── finetune_llama3_v2.py              # Llama 3.1 8B QLoRA fine-tuning
+│   ├── finetune_llama3.py                 # Llama 3.1 8B QLoRA fine-tuning
 │   └── finetune_securitybert_v2.py        # SecRoBERTa fine-tuning
 ├── results/
 │   ├── confusion_matrix_baseline.png      # Confusion matrix figure
 │   ├── method_comparison.png              # Method comparison figure
-│   ├── llama3_results_v2.json             # Llama 3.1 8B experiment results
+│   ├── llama3_results.json                # Llama 3.1 8B experiment results
 │   └── securitybert_results.json          # SecRoBERTa experiment results
 ├── data/
 │   ├── irr_sample.csv                     # IRR validation sample
