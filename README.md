@@ -91,10 +91,10 @@ ollama pull mistral
 python scripts/opensource_llm_experiments.py
 
 # Run Llama 3.1 8B fine-tuning (requires HuggingFace access)
-python scripts/finetune_llama3_v2.py
+python scripts/finetune_llama3.py
 
 # Run SecRoBERTa fine-tuning
-python scripts/finetune_securitybert_v2.py
+python scripts/finetune_securitybert.py
 ```
 
 ---
