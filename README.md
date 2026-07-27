@@ -104,7 +104,7 @@ python scripts/finetune_securitybert.py
 If you use this dataset or code please cite:
 
 ```bibtex
-@inproceedings{niloy2027oss,
+@inproceedings{asiaccs2027oss,
   title={Autonomous OSS Threat Detection via Taxonomy-Aligned LLMs},
   author={Anonymous Author(s)},
   booktitle={Proceedings of the ACM Asia Conference on Computer 
