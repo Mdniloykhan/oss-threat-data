@@ -25,7 +25,8 @@ oss-threat-data/
 │   ├── baseline_experiments.py            # TF-IDF and ML baseline classifiers
 │   ├── opensource_llm_experiments.py      # Open source LLM experiments (Ollama)
 │   ├── finetune_llama3.py                 # Llama 3.1 8B QLoRA fine-tuning
-│   └── finetune_securitybert.py        # SecRoBERTa fine-tuning
+│   └── finetune_securitybert.py           # SecRoBERTa fine-tuning
+│   └── gpt4_taxonomy_classification.py    #GPT-4 taxonomy classification script
 ├── results/
 │   ├── confusion_matrix_baseline.png      # Confusion matrix figure
 │   ├── method_comparison.png              # Method comparison figure
