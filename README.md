@@ -107,7 +107,7 @@ If you use this dataset or code please cite:
 ```bibtex
 @inproceedings{asiaccs2027oss,
   title={Autonomous OSS Threat Detection via Taxonomy-Aligned LLMs},
-  author={Anonymous Author(s)},
+  author={Niloy, Md. Robiul Islam},
   booktitle={Proceedings of the ACM Asia Conference on Computer 
              and Communications Security (AsiaCCS)},
   year={2027}
